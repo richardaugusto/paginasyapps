@@ -1,0 +1,2932 @@
+body{
+  background: red;
+}
+#phone{
+ width: 100%;
+    height: 120px;
+    background: #4e94ab;   
+}
+    #phone img{
+  width: 6%;
+  margin-top: 8px;
+  margin-left: 800px;
+
+}
+#phone h3{
+  font-size: 7vw;
+  margin-top: -90px;
+  margin-left: 350px;
+
+}
+
+#redes{
+    background: #4A94AB;
+   width: 20%;
+    height: 48px;
+     margin-top: 2px;
+    float: right;
+    
+}
+#image img{
+
+   width: 19%;
+    height: 40px;
+    margin-top: 4px;
+     float: right;
+     margin-left: 15px;
+  border-radius: 10px;
+}
+
+  #banner img{
+    width: 100%;
+    height:120px;
+        margin-top: 2px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -125px;
+        text-align: center;
+    }
+#btn-menu {
+    display: none;
+}
+header label {
+
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+
+}
+header label:hover {
+     cursor: pointer;
+    background-color: yellow;
+}
+.menu ul {
+  width: 60%;
+     background: #4e94ab;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+   margin-top: 2px;
+}
+.menu li {
+    border-right: 1px solid #fff;
+}
+.menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 15px 20px;
+}
+
+ #banner1 #slider1, aside{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -68px;
+}
+
+  #slider1{
+    width: 65%;
+    margin: 0;
+    overflow: hidden;
+    margin-top: -32px;
+}
+ #slider1 ul{
+display:flex;
+padding: 0;
+width: 400%;
+
+animation: cambio 22s infinite alternate linear;
+}
+#slider1 li{
+    width:  100%;
+    list-style: none;
+}
+ #slider1 img{
+    width: 100%;
+    height: 358px;
+    
+}
+@keyframes cambio {
+0% {margin-left: 0;}
+20% {margin-left: 0;}
+
+25% {margin-left: -100%;}
+45% {margin-left: -100%;}
+
+50% {margin-left: -200%;}
+70% {margin-left: -200%;}
+
+75% {margin-left: -300%;}
+100% {margin-left: -300%;}
+}   
+aside{
+    width: 34.7%;
+    height: 360px;
+
+margin-top: -51px;
+ box-shadow: #517D8D 4px 4px 4px;
+}
+aside h3{
+    margin-top: -95px;
+text-align: center;
+font-size: 4vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion1 img{
+    width: 100%;
+    height: 117px;
+}
+
+
+aside #informacion2 img{
+    width: 100%;
+    height: 117px;
+    margin-top: -24px;
+}
+aside h4{
+    margin-top: -95px;
+text-align: center;
+font-size: 4vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion3 img{
+    width: 100%;
+    height: 117px;
+    margin-top: -40px;
+}
+aside h5{
+    margin-top: -95px;
+text-align: center;
+font-size: 3.8vw;
+text-shadow: 3px 3px 3px gray;
+}
+  #galery {
+    text-shadow: 2px 2px 2px white;
+    font-size: 3vw;
+    margin-top: 35px;
+}
+section #fotos {
+    float: left;
+    margin-top: -50px;
+}
+#fotos section {
+    float: left;
+    margin: 30px;
+    width: 20%;
+    margin-top: 60px;
+    box-shadow: #517D8D 4px 4px 4px;
+}
+#fotos2 section {
+    float: left;
+    margin: 30px;
+    width: 20%;
+    box-shadow: #517D8D 4px 4px 4px;
+}
+p {
+    font-size: 2vw;
+    margin-top: 28px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 2px white;
+}
+#fotos2 p {
+    text-align: center;
+}
+#Refer {
+    background: #158F90;
+    width: 100%;
+    height: 30px;
+    margin-top: -31px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+#precio {
+    background: #158F90;
+    width: 100%;
+    height: 30px;
+    margin-top: -27px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold;
+}
+
+footer {
+    background: blue;
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    box-shadow: #517D8D 4px 4px 4px;
+}
+
+#slider{
+    width: 100%;
+    height: 150px;
+  background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
+    background-size: 100% 100%;
+      margin-top: 1000px;
+    }
+
+footer{
+    width: 100%;
+    height: 100px;
+    background:  #4E94AB;
+    margin-top: 4px;
+}
+@keyframes slider{
+    to{
+        background-position: 2000px;
+}
+}
+@media(max-width: 1200px){
+  body{
+  background: blue;
+}
+
+#phone{
+ width: 100%;
+    height: 100px;
+    background: #4e94ab;   
+}
+
+
+#redes{
+    background: #4A94AB;
+   width: 20%;
+    height: 48px;
+     margin-top: 2px;
+    float: right;
+    
+}
+#image img{
+
+   width: 19%;
+    height: 40px;
+    margin-top: 4px;
+     float: right;
+     margin-left: 15px;
+  border-radius: 10px;
+}
+
+  #banner img{
+    width: 100%;
+    height:120px;
+        margin-top: 2px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -125px;
+        text-align: center;
+    }
+#btn-menu {
+    display: none;
+}
+header label {
+
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+
+}
+header label:hover {
+     cursor: pointer;
+    background-color: yellow;
+}
+.menu ul {
+  width: 60%;
+     background: #4e94ab;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+   margin-top: 2px;
+}
+.menu li {
+    border-right: 1px solid #fff;
+}
+.menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 15px 20px;
+}
+
+ #banner1 #slider1, aside{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -68px;
+}
+
+  #slider1{
+    width: 65%;
+    margin: 0;
+    overflow: hidden;
+    margin-top: -32px;
+}
+ #slider1 ul{
+display:flex;
+padding: 0;
+width: 400%;
+
+animation: cambio 22s infinite alternate linear;
+}
+#slider1 li{
+    width:  100%;
+    list-style: none;
+}
+ #slider1 img{
+    width: 100%;
+    height: 355px;
+    margin-top: 22px;
+    
+}
+@keyframes cambio {
+0% {margin-left: 0;}
+20% {margin-left: 0;}
+
+25% {margin-left: -100%;}
+45% {margin-left: -100%;}
+
+50% {margin-left: -200%;}
+70% {margin-left: -200%;}
+
+75% {margin-left: -300%;}
+100% {margin-left: -300%;}
+}   
+aside{
+    width: 33.7%;
+    height: 360px;
+
+margin-top: -30px;
+ box-shadow: #517D8D 4px 4px 4px;
+}
+aside h3{
+    margin-top: -95px;
+text-align: center;
+font-size: 4vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion1 img{
+    width: 100%;
+    height: 117px;
+
+}
+
+
+aside #informacion2 img{
+    width: 100%;
+    height: 117px;
+    margin-top: -10px;
+}
+aside h4{
+    margin-top: -95px;
+text-align: center;
+font-size: 4vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion3 img{
+    width: 100%;
+    height: 117px;
+    margin-top: -26px;
+}
+aside h5{
+    margin-top: -95px;
+text-align: center;
+font-size: 3.8vw;
+text-shadow: 3px 3px 3px gray;
+}
+  #galery {
+    text-shadow: 2px 2px 2px white;
+    font-size: 3vw;
+    margin-top: 35px;
+}
+section #fotos {
+    float: left;
+    margin-top: -50px;
+}
+#fotos section {
+    float: left;
+    margin-left: 57px;
+    width: 17%;
+    margin-top: 60px;
+    box-shadow: #517D8D 4px 4px 4px;
+}
+#fotos2 section {
+    float: left;
+  margin-left: 57px;
+    width: 17%;
+    box-shadow: #517D8D 4px 4px 4px;
+}
+p {
+    font-size: 2vw;
+    margin-top: 28px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 2px white;
+}
+#fotos2 p {
+    text-align: center;
+}
+#Refer {
+    background: #158F90;
+    width: 100%;
+    height: 30px;
+    margin-top: -31px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+#precio {
+    background: #158F90;
+    width: 100%;
+    height: 30px;
+    margin-top: -27px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold;
+}
+
+footer {
+    background: blue;
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    box-shadow: #517D8D 4px 4px 4px;
+}
+
+#slider{
+    width: 100%;
+    height: 150px;
+  background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
+    background-size: 100% 100%;
+      margin-top: 830px;
+    }
+
+footer{
+    width: 100%;
+    height: 100px;
+    background:  #4E94AB;
+    margin-top: 4px;
+}
+@keyframes slider{
+    to{
+        background-position: 2000px;
+}
+}
+
+@media(max-width: 1024px){
+  body{
+  background: blue;
+}
+#phone{
+ width: 100%;
+    height: 120px;
+      
+}
+
+    #phone img{
+  width: 10%;
+  margin-top: 8px;
+  margin-left: 230px;
+
+}
+#phone h3{
+  font-size: 9vw;
+  margin-top: -90px;
+  margin-left: 350px;
+
+}
+#redes{
+  background: #1ADDC8;
+   width: 35%;
+    height: 50px;
+     margin-top: 5px;
+  
+    
+}
+#image img{
+
+   width: 18%;
+    height: 45px;
+    margin-top: 4px;
+    
+}
+  #banner img{
+    width: 100%;
+    height: 120px;
+        margin-top: -3px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -100px;
+        text-align: center;
+    }
+
+ header label {
+        display: block;
+        margin: -9px;
+        margin-bottom: 20px;
+    }
+    header label img {
+        width: 180%;
+        margin-top: 1px;
+    }
+    .menu {
+        position: absolute;
+      
+        width: 70%;
+        margin-left: -63%;
+        transition: all 0.5s;
+
+
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-top: -25px
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+  #btn-menu:checked~.menu {
+        margin: 0;
+    }
+ 
+#banner1 #slider1, aside{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -68px;
+}
+
+  #slider1{
+    width: 64.4%;
+    margin: 0;
+    overflow: hidden;
+    margin-top: -32px;
+}
+ #slider1 ul{
+display:flex;
+padding: 0;
+width: 400%;
+
+animation: cambio 22s infinite alternate linear;
+}
+#slider1 li{
+    width:  100%;
+    list-style: none;
+}
+ #slider1 img{
+    width: 100%;
+    height: 320px;
+    margin-top: 24px;
+    
+}
+@keyframes cambio {
+0% {margin-left: 0;}
+20% {margin-left: 0;}
+
+25% {margin-left: -100%;}
+45% {margin-left: -100%;}
+
+50% {margin-left: -200%;}
+70% {margin-left: -200%;}
+
+75% {margin-left: -300%;}
+100% {margin-left: -300%;}
+}   
+
+aside h3{
+    margin-top: -75px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion1 img{
+    width: 100%;
+    height: 103px;
+    margin-top: 40px;
+}
+
+
+aside #informacion2 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -34px;
+}
+aside h4{
+    margin-top: -75px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion3 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -50px;
+}
+aside h5{
+    margin-top: -75px;
+text-align: center;
+font-size: 3.8vw;
+text-shadow: 3px 3px 3px gray;
+}
+#galery {
+  
+    font-size: 5vw;
+    margin-top: 20px;
+}
+#fotos section {
+    
+    
+    width: 25%;
+    margin-left: 40px;
+margin-top: 50px;
+}
+#fotos2 section {
+  
+     width: 25%;
+    margin-left: 40px;
+    margin-top: 53px;
+}
+ p {
+    font-size: 3vw;
+    margin-top:5px;
+   font-weight: bold:;
+}
+#fotos2 p {
+    text-align: center;
+    
+}
+#Refer {
+    background: green;
+    width: 100%;
+    height: 50px;
+    margin-top: -8px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: green;
+    width: 100%;
+    height: 50px;
+    margin-top: -4px;
+    font-weight: bold:;
+}
+#slider{
+    width: 100%;
+    height: 150px;
+  background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
+    background-size: 100% 100%;
+      margin-top:1580px;
+    }
+}
+
+@media(max-width: 991px){
+  body{
+  background: blue;
+}
+#phone{
+ width: 100%;
+    height: 120px;
+      
+}
+
+    #phone img{
+  width: 10%;
+  margin-top: 8px;
+  margin-left: 230px;
+
+}
+#phone h3{
+  font-size: 9vw;
+  margin-top: -90px;
+  margin-left: 350px;
+
+}
+#redes{
+  background: #1ADDC8;
+   width: 35%;
+    height: 50px;
+     margin-top: 5px;
+  
+    
+}
+#image img{
+
+   width: 20%;
+    height: 45px;
+    margin-top: 4px;
+    
+}
+  #banner img{
+    width: 100%;
+    height: 120px;
+        margin-top: -3px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -100px;
+        text-align: center;
+    }
+
+ header label {
+        display: block;
+        margin: -9px;
+        margin-bottom: 20px;
+    }
+    header label img {
+        width: 180%;
+        margin-top: 1px;
+    }
+    .menu {
+        position: absolute;
+      
+        width: 70%;
+        margin-left: -63%;
+        transition: all 0.5s;
+
+
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-top: -25px
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+  #btn-menu:checked~.menu {
+        margin: 0;
+    }
+ 
+#banner1 #slider1, aside{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -68px;
+}
+
+  #slider1{
+    width: 64.4%;
+    margin: 0;
+    overflow: hidden;
+    margin-top: -32px;
+}
+ #slider1 ul{
+display:flex;
+padding: 0;
+width: 400%;
+
+animation: cambio 22s infinite alternate linear;
+}
+#slider1 li{
+    width:  100%;
+    list-style: none;
+}
+ #slider1 img{
+    width: 100%;
+    height: 312px;
+    margin-top: 24px;
+    
+}
+@keyframes cambio {
+0% {margin-left: 0;}
+20% {margin-left: 0;}
+
+25% {margin-left: -100%;}
+45% {margin-left: -100%;}
+
+50% {margin-left: -200%;}
+70% {margin-left: -200%;}
+
+75% {margin-left: -300%;}
+100% {margin-left: -300%;}
+}   
+
+aside h3{
+    margin-top: -75px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion1 img{
+    width: 100%;
+    height: 103px;
+    margin-top: 40px;
+}
+
+
+aside #informacion2 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -34px;
+}
+aside h4{
+    margin-top: -75px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion3 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -50px;
+}
+aside h5{
+    margin-top: -75px;
+text-align: center;
+font-size: 3.8vw;
+text-shadow: 3px 3px 3px gray;
+}
+#galery {
+  
+    font-size: 5vw;
+    margin-top: 20px;
+}
+#fotos section {
+    
+    
+    width: 25%;
+    margin-left: 40px;
+margin-top: 50px;
+}
+#fotos2 section {
+  
+     width: 25%;
+    margin-left: 40px;
+    margin-top: 53px;
+}
+ p {
+    font-size: 3vw;
+    margin-top:5px;
+   font-weight: bold:;
+}
+#fotos2 p {
+    text-align: center;
+    
+}
+#Refer {
+    background: green;
+    width: 100%;
+    height: 50px;
+    margin-top: -8px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: green;
+    width: 100%;
+    height: 50px;
+    margin-top: -4px;
+    font-weight: bold:;
+}
+#slider{
+    width: 100%;
+    height: 150px;
+  background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
+    background-size: 100% 100%;
+      margin-top:1580px;
+    }
+}
+
+
+
+@media(max-width: 800px){
+  body{
+  background: blue;
+}
+#phone{
+ width: 100%;
+    height: 120px;
+      
+}
+
+   #contenedor #phone img{
+  width: 10%;
+  margin-top: 10px;
+  margin-left: 150px;
+
+}
+#phone h3{
+  font-size: 9vw;
+  margin-top: -70px;
+  margin-left: 250px;
+
+}
+#redes{
+  background: #1ADDC8;
+   width: 43%;
+    height: 47px;
+     margin-top: 5px;
+  
+    
+}
+#image img{
+
+   width: 20%;
+    height: 45px;
+    margin-top: 4px;
+    
+}
+  #banner img{
+    width: 100%;
+    height: 120px;
+        margin-top: -3px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -100px;
+        text-align: center;
+    }
+
+ header label {
+        display: block;
+        margin: -9px;
+        margin-bottom: 20px;
+    }
+    header label img {
+        width: 180%;
+        margin-top: 1px;
+    }
+    .menu {
+        position: absolute;
+      
+        width: 70%;
+        margin-left: -63%;
+        transition: all 0.5s;
+
+
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-top: -25px
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+  #btn-menu:checked~.menu {
+        margin: 0;
+    }
+ 
+#banner1 #slider1, aside{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -68px;
+}
+
+  #slider1{
+    width: 64.4%;
+    margin: 0;
+    overflow: hidden;
+    margin-top: -32px;
+}
+ #slider1 ul{
+display:flex;
+padding: 0;
+width: 400%;
+
+animation: cambio 22s infinite alternate linear;
+}
+#slider1 li{
+    width:  100%;
+    list-style: none;
+}
+ #slider1 img{
+    width: 100%;
+    height: 327px;
+    margin-top: 48px;
+    
+}
+@keyframes cambio {
+0% {margin-left: 0;}
+20% {margin-left: 0;}
+
+25% {margin-left: -100%;}
+45% {margin-left: -100%;}
+
+50% {margin-left: -200%;}
+70% {margin-left: -200%;}
+
+75% {margin-left: -300%;}
+100% {margin-left: -300%;}
+}   
+aside{
+    width: 34.7%;
+    height: 309px;
+
+
+margin-top: -64px;
+ box-shadow: #517D8D 4px 4px 4px;
+}
+aside h3{
+    margin-top: -75px;
+text-align: center;
+font-size: 4vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion1 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -40px;
+}
+
+
+aside #informacion2 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -27px;
+}
+aside h4{
+    margin-top: -105px;
+text-align: center;
+font-size: 4vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion3 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -3px;
+}
+aside h5{
+    margin-top: -75px;
+text-align: center;
+font-size: 3.8vw;
+text-shadow: 3px 3px 3px gray;
+}
+
+
+aside{
+    width: 34.7%;
+    height: 309px;
+
+
+margin-top: -40px;
+ box-shadow: #517D8D 4px 4px 4px;
+}
+aside h3{
+    margin-top: -75px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion1 img{
+    width: 100%;
+    height: 103px;
+    margin-top: 40px;
+}
+
+
+aside #informacion2 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -9px;
+}
+aside h4{
+    margin-top: -75px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion3 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -22px;
+}
+aside h5{
+    margin-top: -75px;
+text-align: center;
+font-size: 3.8vw;
+text-shadow: 3px 3px 3px gray;
+}
+#galery {
+  
+    font-size: 5vw;
+    margin-top: 20px;
+}
+#fotos section {
+    
+    
+    width: 40%;
+    margin-left: 40px;
+margin-top: 50px;
+}
+#fotos2 section {
+  
+     width: 40%;
+    margin-left: 40px;
+}
+ p {
+    font-size: 6vw;
+    margin-top:5px;
+   font-weight: bold:;
+}
+#fotos2 p {
+    text-align: center;
+    
+}
+#Refer {
+    background: green;
+    width: 100%;
+    height: 50px;
+    margin-top: -8px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: green;
+    width: 100%;
+    height: 50px;
+    margin-top: -4px;
+    font-weight: bold:;
+}
+#slider{
+    width: 100%;
+    height: 150px;
+  background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
+    background-size: 100% 100%;
+      margin-top:2400px;
+    }
+}
+
+@media(max-width: 768px){
+  body{
+  background:#51DD1A;
+}
+#phone{
+ width: 100%;
+    height: 120px;
+      
+}
+
+   #contenedor #phone img{
+  width: 10%;
+  margin-top: 10px;
+  margin-left: 150px;
+
+}
+#phone h3{
+  font-size: 9vw;
+  margin-top: -70px;
+  margin-left: 250px;
+
+}
+#redes{
+  background: #1ADDC8;
+   width: 43%;
+    height: 47px;
+     margin-top: 5px;
+  
+    
+}
+#image img{
+
+   width: 20%;
+    height: 45px;
+    margin-top: 4px;
+    
+}
+  #banner img{
+    width: 100%;
+    height: 120px;
+        margin-top: -3px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -100px;
+        text-align: center;
+    }
+ header label {
+        display: block;
+        margin: -9px;
+        margin-bottom: 20px;
+    }
+    header label img {
+        width: 180%;
+        margin-top: 1px;
+    }
+    .menu {
+        position: absolute;
+      
+        width: 70%;
+        margin-left: -63%;
+        transition: all 0.5s;
+
+
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-top: -25px
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+  #btn-menu:checked~.menu {
+        margin: 0;
+    }
+ 
+#banner1 #slider1, aside{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -68px;
+}
+
+  #slider1{
+    width: 64.4%;
+    margin: 0;
+    overflow: hidden;
+    margin-top: -32px;
+}
+ #slider1 ul{
+display:flex;
+padding: 0;
+width: 400%;
+
+animation: cambio 22s infinite alternate linear;
+}
+#slider1 li{
+    width:  100%;
+    list-style: none;
+}
+ #slider1 img{
+    width: 100%;
+    height: 314px;
+    margin-top: 52px;
+    
+}
+@keyframes cambio {
+0% {margin-left: 0;}
+20% {margin-left: 0;}
+
+25% {margin-left: -100%;}
+45% {margin-left: -100%;}
+
+50% {margin-left: -200%;}
+70% {margin-left: -200%;}
+
+75% {margin-left: -300%;}
+100% {margin-left: -300%;}
+}   
+aside{
+    width: 34.7%;
+    height: 309px;
+
+
+margin-top: -40px;
+ box-shadow: #517D8D 4px 4px 4px;
+}
+aside h3{
+    margin-top: -75px;
+text-align: center;
+font-size: 4vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion1 img{
+    width: 100%;
+    height: 103px;
+    margin-top: 40px;
+}
+
+
+aside #informacion2 img{
+    width: 100%;
+    height: 103px;
+    margin-top: 7px;
+}
+aside h4{
+    margin-top: -75px;
+text-align: center;
+font-size: 4vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion3 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -3px;
+}
+aside h5{
+    margin-top: -75px;
+text-align: center;
+font-size: 3.8vw;
+text-shadow: 3px 3px 3px gray;
+}
+
+
+aside{
+    width: 34.7%;
+    height: 309px;
+
+
+margin-top: -40px;
+ box-shadow: #517D8D 4px 4px 4px;
+}
+aside h3{
+    margin-top: -75px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion1 img{
+    width: 100%;
+    height: 103px;
+    margin-top: 40px;
+}
+
+
+aside #informacion2 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -9px;
+}
+aside h4{
+    margin-top: -75px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion3 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -22px;
+}
+aside h5{
+    margin-top: -75px;
+text-align: center;
+font-size: 3.8vw;
+text-shadow: 3px 3px 3px gray;
+}
+#galery {
+  
+    font-size: 5vw;
+    margin-top: 20px;
+}
+#fotos section {
+    
+    
+    width: 40%;
+    margin-left: 40px;
+margin-top: 50px;
+}
+#fotos2 section {
+  
+     width: 40%;
+    margin-left: 40px;
+}
+ p {
+    font-size: 6vw;
+    margin-top:5px;
+   font-weight: bold:;
+}
+#fotos2 p {
+    text-align: center;
+    
+}
+#Refer {
+    background: green;
+    width: 100%;
+    height: 50px;
+    margin-top: -8px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: green;
+    width: 100%;
+    height: 50px;
+    margin-top: -4px;
+    font-weight: bold:;
+}
+#slider{
+    width: 100%;
+    height: 150px;
+  background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
+    background-size: 100% 100%;
+      margin-top:2330px;
+    }
+}
+
+@media(max-width: 677px){
+  body{
+  background: #E595C8;
+}
+#slider1 img{
+  margin-top: 64px;
+  height: 293px;
+}
+
+aside{
+    width: 34.7%;
+    height: 309px;
+
+
+margin-top: -100px;
+ 
+}
+aside h3{
+    margin-top: -100px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion1 img{
+    width: 100%;
+    height: 103px;
+    margin-top: 112px;
+}
+
+
+aside #informacion2 img{
+    width: 100%;
+    height: 103px;
+    margin-top: 6px;
+}
+aside h4{
+    margin-top: -75px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion3 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -10px;
+}
+aside h5{
+    margin-top: -95px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+#fotos section {
+    
+    
+    width: 35%;
+    margin-left: 45px;
+margin-top: 50px;
+}
+#fotos2 section {
+  
+     width: 35%;
+    margin-left: 55px;
+}
+
+#fotos2 p {
+  font-size: 3.5vw;
+    text-align: center;
+    
+}
+#Refer {
+    background: green;
+    width: 100%;
+    height: 40px;
+    margin-top: -8px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: green;
+    width: 100%;
+    height: 40px;
+    margin-top: -4px;
+    font-weight: bold:;
+}
+#slider{
+    width: 100%;
+    height: 150px;
+  background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
+    background-size: 100% 100%;
+      margin-top:1900px;
+    }
+}
+@media(max-width: 600px){
+  body{
+  background: #E7A424;
+}
+
+#redes{
+  background: #E7A424;
+}
+#slider1 img{
+  margin-top: 73px;
+  height: 311px;
+}
+
+#fotos2 p {
+  font-size: 4vw;
+    text-align: center;
+    
+}
+#Refer {
+    background: green;
+    width: 100%;
+    height: 40px;
+    margin-top: -8px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: green;
+    width: 100%;
+    height: 40px;
+    margin-top: -4px;
+    font-weight: bold:;
+}
+#slider{
+height: 100px;
+      margin-top: 1700px;
+    
+}
+}
+@media(max-width: 600px){
+  body{
+  background: #E7A424;
+}
+
+#redes{
+  background: #E7A424;
+}
+#slider1 img{
+  margin-top: 73px;
+  height: 311px;
+}
+aside h3{
+    margin-top: -75px;
+text-align: center;
+font-size: 4vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion1 img{
+    width: 100%;
+    height: 103px;
+    margin-top: 40px;
+}
+
+
+aside #informacion2 img{
+    width: 100%;
+    height: 103px;
+    margin-top: 7px;
+}
+aside h4{
+    margin-top: -75px;
+text-align: center;
+font-size: 4vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion3 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -3px;
+}
+aside h5{
+    margin-top: -75px;
+text-align: center;
+font-size: 3.8vw;
+text-shadow: 3px 3px 3px gray;
+}
+
+#fotos section {
+    
+    
+    width: 35%;
+    margin-left: 45px;
+margin-top: 50px;
+}
+#fotos2 section {
+  
+     width: 35%;
+    margin-left: 45px;
+}
+aside{
+    width: 34.7%;
+    height: 309px;
+
+
+margin-top: -40px;
+ box-shadow: #517D8D 4px 4px 4px;
+}
+aside h3{
+    margin-top: -75px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion1 img{
+    width: 100%;
+    height: 103px;
+    margin-top: 62px;
+}
+
+
+aside #informacion2 img{
+    width: 100%;
+    height: 103px;
+    margin-top: 7px;
+}
+aside h4{
+    margin-top: -75px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion3 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -3px;
+}
+aside h5{
+    margin-top: -75px;
+text-align: center;
+font-size: 3.8vw;
+text-shadow: 3px 3px 3px gray;
+}
+#fotos2 p {
+  font-size: 4vw;
+    text-align: center;
+    
+}
+#Refer {
+    background: green;
+    width: 100%;
+    height: 40px;
+    margin-top: -8px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: green;
+    width: 100%;
+    height: 40px;
+    margin-top: -4px;
+    font-weight: bold:;
+}
+#slider{
+height: 100px;
+      margin-top: 1770px;
+    }
+}
+@media(max-width: 480px){
+  body{
+  background: #1E92E4;
+}
+#phone{
+ width: 100%;
+    height: 100px;
+      
+}
+
+   #contenedor #phone img{
+  width: 15%;
+  margin-top: 10px;
+  margin-left: 60px;
+
+}
+#phone h3{
+  font-size: 9vw;
+  margin-top: -55px;
+  margin-left: 150px;
+
+}
+#redes{
+  background: #1E92E4;
+   width: 43%;
+    height: 38px;
+     margin-top: 1px;
+  
+    
+}
+#image img{
+
+   width: 20%;
+    height: 32px;
+    margin-top: 4px;
+    
+}
+  #banner img{
+    width: 100%;
+    height:75px;
+        margin-top: -18px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -60px;
+        text-align: center;
+    }
+ header label {
+        display: block;
+        margin: -9px;
+        margin-bottom: 20px;
+    }
+    header label img {
+        width: 130%;
+        margin-top: 1px;
+    }
+    .menu {
+        position: absolute;
+      
+        width: 70%;
+        margin-left: -63%;
+        transition: all 0.5s;
+
+
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-top: -25px
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+  #btn-menu:checked~.menu {
+        margin: 0;
+    }
+ 
+
+ #slider1 img{
+    
+    height: 220px;
+     margin-top: 50px;
+    
+}
+  #slider1{
+    width: 100%;
+
+}
+aside{
+  width: 100%;
+  margin-top: 8px;
+   box-shadow: #517D8D 4px 4px 4px;
+}
+
+aside h3{
+    margin-top: -45px;
+
+font-size: 6vw;
+
+}
+aside #informacion1 img{
+    
+    height: 50px;
+    margin-top: -26px;
+
+    
+}
+
+
+aside #informacion2 img{
+ 
+    height: 50px;
+    margin-top: -19px;
+}
+aside h4{
+    margin-top: -45px;
+
+font-size: 6vw;
+
+}
+aside #informacion3 img{
+    
+    height: 50px;
+    margin-top: -30px;
+}
+aside h5{
+    margin-top: -45px;
+text-align: center;
+font-size: 6vw;
+text-shadow: 3px 3px 3px gray;
+}
+#galery {
+  
+    font-size: 5vw;
+    margin-top: -190px;
+}
+#fotos section {
+    
+    margin: 30px;
+    width: 100%;
+    margin-left: -1px;
+margin-top: 50px;
+}
+#fotos2 section {
+     width: 100%;
+    margin-left: -1px;
+}
+ p {
+    font-size: 7vw;
+    margin-top:5px;
+   font-weight: bold:;
+}
+#fotos2 p {
+    text-align: center;
+    
+}
+#Refer {
+    background: green;
+    width: 100%;
+    height: 30px;
+    margin-top: -4px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: green;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    font-weight: bold:;
+}
+#slider{
+height: 100px;
+      margin-top: 6180px;
+    }
+}
+
+
+@media(max-width: 414px){
+  body{
+  background: #23E41E;
+}
+#phone{
+ width: 100%;
+    height: 70px;
+      
+}
+
+   #contenedor #phone img{
+  width: 15%;
+  margin-top: 5px;
+  margin-left: 60px;
+
+}
+#phone h3{
+  font-size: 9vw;
+  margin-top: -55px;
+  margin-left: 130px;
+
+}
+#redes{
+  background: #23E41E;
+   width: 43%;
+    height: 38px;
+     margin-top: 1px;
+  
+    
+}
+#image img{
+
+   width: 20%;
+    height: 32px;
+    margin-top: 4px;
+    
+}
+  #banner img{
+    width: 100%;
+    height:75px;
+        margin-top: -18px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -60px;
+        text-align: center;
+    }
+ header label {
+        display: block;
+        margin: -9px;
+        margin-bottom: 20px;
+    }
+    header label img {
+        width: 130%;
+        margin-top: 1px;
+    }
+    .menu {
+        position: absolute;
+      
+        width: 70%;
+        margin-left: -63%;
+        transition: all 0.5s;
+
+
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-top: -25px
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+  #btn-menu:checked~.menu {
+        margin: 0;
+    }
+ 
+
+ #slider1 img{
+    
+    height: 160px;
+     margin-top: 58px;
+    
+}
+  #slider1{
+    width: 100%;
+
+}
+aside{
+  width: 100%;
+  margin-top: 8px;
+   box-shadow: #517D8D 4px 4px 4px;
+}
+
+aside h3{
+    margin-top: -33px;
+
+font-size: 6vw;
+
+}
+aside #informacion1 img{
+    
+    height: 40px;
+    margin-top: -100px;
+
+    
+}
+
+
+aside #informacion2 img{
+ 
+    height: 40px;
+    margin-top: -22px;
+}
+aside h4{
+    margin-top: -33px;
+
+font-size: 6vw;
+
+}
+aside #informacion3 img{
+    
+    height: 40px;
+    margin-top: -40px;
+}
+aside h5{
+    margin-top: -38px;
+text-align: center;
+font-size: 6vw;
+text-shadow: 3px 3px 3px gray;
+}
+#galery {
+  
+    font-size: 5vw;
+    margin-top: -225px;
+}
+#fotos section {
+    
+    margin: 30px;
+    width: 100%;
+    margin-left: -1px;
+
+}
+#fotos2 section {
+     width: 100%;
+    margin-left: -1px;
+}
+ p {
+    font-size: 7vw;
+    margin-top:5px;
+   font-weight: bold:;
+}
+#fotos2 p {
+    text-align: center;
+    
+}
+#Refer {
+    background: green;
+    width: 100%;
+    height: 30px;
+    margin-top: -4px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: green;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    font-weight: bold:;
+}
+#slider{
+height: 100px;
+      margin-top: 5400px;
+    }
+}
+
+
+@media(max-width: 411px){
+  body{
+  background: #864278;
+}
+#phone{
+ width: 100%;
+    height: 70px;
+      
+}
+
+   #contenedor #phone img{
+  width: 15%;
+  margin-top: 5px;
+  margin-left: 20px;
+
+}
+#phone h3{
+  font-size: 9vw;
+  margin-top: -55px;
+  margin-left: 130px;
+
+}
+#redes{
+  background: #864278;
+   width: 43%;
+    height: 32px;
+     margin-top: 1px;
+  
+    
+}
+#image img{
+
+   width: 20%;
+    height: 28px;
+    margin-top: 4px;
+    
+}
+   #banner img{
+    width: 100%;
+    height:70px;
+        margin-top: 370px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: 50px;
+        text-align: center;
+    }
+ header label {
+        display: block;
+        margin: -9px;
+        margin-bottom: 20px;
+    }
+    header label img {
+        width: 100%;
+        margin-top: 1px;
+    }
+    .menu {
+        position: absolute;
+      
+        width: 70%;
+        margin-left: -63%;
+        transition: all 0.5s;
+
+
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-top: -25px
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+  #btn-menu:checked~.menu {
+        margin: 0;
+    }
+ 
+
+ #slider1 img{
+    
+    height: 160px;
+     margin-top: 58px;
+    
+}
+  #slider1{
+    width: 100%;
+
+}
+aside{
+  width: 100%;
+  margin-top: 8px;
+   box-shadow: #517D8D 4px 4px 4px;
+}
+
+aside h3{
+    margin-top: -33px;
+
+font-size: 6vw;
+
+}
+aside #informacion1 img{
+    
+    height: 40px;
+    margin-top: -100px;
+
+    
+}
+
+
+aside #informacion2 img{
+ 
+    height: 40px;
+    margin-top: -22px;
+}
+aside h4{
+    margin-top: -33px;
+
+font-size: 6vw;
+
+}
+aside #informacion3 img{
+    
+    height: 40px;
+    margin-top: -338px;
+}
+aside h5{
+    margin-top: -38px;
+text-align: center;
+font-size: 6vw;
+text-shadow: 3px 3px 3px gray;
+}
+#galery {
+  
+    font-size: 5vw;
+    margin-top: -225px;
+}
+#fotos section {
+    
+    margin: 30px;
+    width: 100%;
+    margin-left: -1px;
+
+}
+#fotos2 section {
+     width: 100%;
+    margin-left: -1px;
+}
+ p {
+    font-size: 7vw;
+    margin-top:5px;
+   font-weight: bold:;
+}
+#fotos2 p {
+    text-align: center;
+    
+}
+#Refer {
+    background: green;
+    width: 100%;
+    height: 30px;
+    margin-top: -4px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: green;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    font-weight: bold:;
+}
+#slider{
+height: 100px;
+      margin-top: 5400px;
+    }
+}
+
+@media(max-width: 375px){
+  body{
+  background: green;
+}
+#phone{
+ width: 100%;
+    height: 70px;
+      
+}
+
+   #contenedor #phone img{
+  width: 15%;
+  margin-top: 10px;
+  margin-left: 60px;
+
+}
+#phone h3{
+  font-size: 9vw;
+  margin-top: -45px;
+  margin-left: 120px;
+
+}
+#redes{
+  background: green;
+   width: 43%;
+    height: 32px;
+     margin-top: 1px;
+  
+    
+}
+#image img{
+
+   width: 20%;
+    height: 28px;
+    margin-top: 4px;
+    
+}
+  #banner img{
+    width: 100%;
+    height:70px;
+        margin-top: -27px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -50px;
+        text-align: center;
+    }
+ header label {
+        display: block;
+        margin: -9px;
+        margin-bottom: 20px;
+    }
+    header label img {
+        width: 100%;
+        margin-top: 1px;
+    }
+    .menu {
+        position: absolute;
+      
+        width: 70%;
+        margin-left: -63%;
+        transition: all 0.5s;
+
+
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-top: -25px
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+  #btn-menu:checked~.menu {
+        margin: 0;
+    }
+ 
+
+ #slider1 img{
+    
+    height: 160px;
+     margin-top: 58px;
+    
+}
+  #slider1{
+    width: 100%;
+
+}
+aside{
+  width: 100%;
+  margin-top: 8px;
+   box-shadow: #517D8D 4px 4px 4px;
+}
+
+aside h3{
+    margin-top: -33px;
+
+font-size: 6vw;
+
+}
+aside #informacion1 img{
+    
+    height: 40px;
+    margin-top: -100px;
+
+    
+}
+
+
+aside #informacion2 img{
+ 
+    height: 40px;
+    margin-top: -18px;
+}
+aside h4{
+    margin-top: -33px;
+
+font-size: 6vw;
+
+}
+aside #informacion3 img{
+    
+    height: 40px;
+    margin-top: -26px;
+}
+aside h5{
+    margin-top: -32px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+#galery {
+  
+    font-size: 5vw;
+    margin-top: -225px;
+}
+#fotos section {
+    
+    margin: 30px;
+    width: 100%;
+    margin-left: -1px;
+
+}
+#fotos2 section {
+     width: 100%;
+    margin-left: -1px;
+}
+ p {
+    font-size: 7vw;
+    margin-top:5px;
+   font-weight: bold:;
+}
+#fotos2 p {
+    text-align: center;
+    
+}
+#Refer {
+    background: green;
+    width: 100%;
+    height: 30px;
+    margin-top: -4px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: green;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    font-weight: bold:;
+}
+#slider{
+height: 100px;
+      margin-top: 4930px;
+    }
+}
+
+@media(max-width: 360px){
+  body{
+  background: gray;
+}
+#phone{
+ width: 100%;
+    height: 70px;
+      
+}
+
+   #contenedor #phone img{
+  width: 15%;
+  margin-top: 10px;
+  margin-left: 60px;
+
+}
+#phone h3{
+  font-size: 9vw;
+  margin-top: -45px;
+  margin-left: 120px;
+
+}
+#redes{
+  background: gray;
+   width: 43%;
+    height: 32px;
+     margin-top: 1px;
+  
+    
+}
+#image img{
+
+   width: 20%;
+    height: 28px;
+    margin-top: 4px;
+    
+}
+  #banner img{
+    width: 100%;
+    height:70px;
+        margin-top: -27px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -50px;
+        text-align: center;
+    }
+ header label {
+        display: block;
+        margin: -9px;
+        margin-bottom: 20px;
+    }
+    header label img {
+        width: 100%;
+        margin-top: 1px;
+    }
+    .menu {
+        position: absolute;
+      
+        width: 70%;
+        margin-left: -63%;
+        transition: all 0.5s;
+
+
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-top: -25px
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+  #btn-menu:checked~.menu {
+        margin: 0;
+    }
+ 
+
+ #slider1 img{
+    
+    height: 160px;
+     margin-top: 58px;
+    
+}
+  #slider1{
+    width: 100%;
+
+}
+aside{
+  width: 100%;
+  margin-top: 8px;
+   box-shadow: #517D8D 4px 4px 4px;
+}
+
+aside h3{
+    margin-top: -33px;
+
+font-size: 6vw;
+
+}
+aside #informacion1 img{
+    
+    height: 40px;
+    margin-top: -100px;
+
+    
+}
+
+
+aside #informacion2 img{
+ 
+    height: 40px;
+    margin-top: -15px;
+}
+aside h4{
+    margin-top: -33px;
+
+font-size: 6vw;
+
+}
+aside #informacion3 img{
+    
+    height: 40px;
+    margin-top: -23px;
+}
+aside h5{
+    margin-top: -32px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+#galery {
+  
+    font-size: 5vw;
+    margin-top: -225px;
+}
+#fotos section {
+    
+    margin: 30px;
+    width: 100%;
+    margin-left: -1px;
+
+}
+#fotos2 section {
+     width: 100%;
+    margin-left: -1px;
+}
+ p {
+    font-size: 7vw;
+    margin-top:5px;
+   font-weight: bold:;
+}
+#fotos2 p {
+    text-align: center;
+    
+}
+#Refer {
+    background: #F1F10F;
+    width: 100%;
+    height: 30px;
+    margin-top: -4px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: #F1F10F;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    font-weight: bold:;
+}
+#slider{
+height: 100px;
+      margin-top: 4800px;
+    }
+}
+@media(max-width: 320px){
+  body{
+  background: yellow;
+}
+#phone{
+ width: 100%;
+    height: 60px;
+      
+}
+
+   #contenedor #phone img{
+  width: 15%;
+  margin-top: 10px;
+  margin-left: 40px;
+
+}
+#phone h3{
+  font-size: 9vw;
+  margin-top: -35px;
+  margin-left: 100px;
+
+}
+#redes{
+  background: yellow;
+   width: 43%;
+    height: 32px;
+     margin-top: 1px;
+  
+    
+}
+#image img{
+
+   width: 20%;
+    height: 28px;
+    margin-top: 4px;
+    
+}
+  #banner img{
+    width: 100%;
+    height:70px;
+        margin-top: -27px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -50px;
+        text-align: center;
+    }
+ header label {
+        display: block;
+        margin: -9px;
+        margin-bottom: 20px;
+    }
+    header label img {
+        width: 100%;
+        margin-top: 1px;
+    }
+    .menu {
+        position: absolute;
+      
+        width: 70%;
+        margin-left: -63%;
+        transition: all 0.5s;
+
+
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-top: -25px
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+  #btn-menu:checked~.menu {
+        margin: 0;
+    }
+ 
+
+ #slider1 img{
+    
+    height: 160px;
+     margin-top: 58px;
+    
+}
+  #slider1{
+    width: 100%;
+
+}
+aside{
+  width: 100%;
+  margin-top: 8px;
+   box-shadow: #517D8D 4px 4px 4px;
+}
+
+aside h3{
+    margin-top: -33px;
+
+font-size: 6vw;
+
+}
+aside #informacion1 img{
+    
+    height: 40px;
+    margin-top: -100px;
+
+    
+}
+
+
+aside #informacion2 img{
+ 
+    height: 40px;
+    margin-top: -11px;
+}
+aside h4{
+    margin-top: -33px;
+
+font-size: 6vw;
+
+}
+aside #informacion3 img{
+    
+    height: 40px;
+    margin-top: -18px;
+}
+aside h5{
+    margin-top: -32px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+#galery {
+  
+    font-size: 5vw;
+    margin-top: -225px;
+}
+#fotos section {
+    
+    margin: 30px;
+    width: 100%;
+    margin-left: -1px;
+
+}
+#fotos2 section {
+     width: 100%;
+    margin-left: -1px;
+}
+ p {
+    font-size: 7vw;
+    margin-top:5px;
+   font-weight: bold:;
+}
+#fotos2 p {
+    text-align: center;
+    
+}
+#Refer {
+    background: #F1F10F;
+    width: 100%;
+    height: 30px;
+    margin-top: -4px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: #F1F10F;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    font-weight: bold:;
+}
+#slider{
+height: 100px;
+      margin-top: 4400px;
+    }
+}
+
+
+@media(max-width: 280px){
+  body{
+  background: yellow;
+}
+#phone{
+ width: 100%;
+    height: 60px;
+      
+}
+
+   #contenedor #phone img{
+  width: 15%;
+  margin-top: 10px;
+  margin-left: 40px;
+
+}
+#phone h3{
+  font-size: 9vw;
+  margin-top: -35px;
+  margin-left: 100px;
+
+}
+#redes{
+  background: yellow;
+   width: 43%;
+    height: 32px;
+     margin-top: 1px;
+  
+    
+}
+#image img{
+
+   width: 20%;
+    height: 28px;
+    margin-top: 4px;
+    
+}
+  #banner img{
+    width: 100%;
+    height:70px;
+        margin-top: -27px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -50px;
+        text-align: center;
+    }
+ header label {
+        display: block;
+        margin: -9px;
+        margin-bottom: 20px;
+    }
+    header label img {
+        width: 100%;
+        margin-top: 1px;
+    }
+    .menu {
+        position: absolute;
+      
+        width: 70%;
+        margin-left: -63%;
+        transition: all 0.5s;
+
+
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-top: -25px
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+  #btn-menu:checked~.menu {
+        margin: 0;
+    }
+ 
+
+ #slider1 img{
+    
+    height: 140px;
+     margin-top: 64px;
+    
+}
+  #slider1{
+    width: 100%;
+
+}
+aside{
+  width: 100%;
+  margin-top: 8px;
+   box-shadow: #517D8D 4px 4px 4px;
+}
+
+aside h3{
+    margin-top: -33px;
+
+font-size: 6vw;
+
+}
+aside #informacion1 img{
+    
+    height: 40px;
+    margin-top: -100px;
+
+    
+}
+
+
+aside #informacion2 img{
+ 
+    height: 40px;
+    margin-top: -7px;
+}
+aside h4{
+    margin-top: -33px;
+
+font-size: 6vw;
+
+}
+aside #informacion3 img{
+    
+    height: 40px;
+    margin-top: -12px;
+}
+aside h5{
+    margin-top: -32px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+#galery {
+  
+    font-size: 5vw;
+    margin-top: -225px;
+}
+#fotos section {
+    
+    margin: 30px;
+    width: 100%;
+    margin-left: -1px;
+
+}
+#fotos2 section {
+     width: 100%;
+    margin-left: -1px;
+}
+ p {
+    font-size: 7vw;
+    margin-top:5px;
+   font-weight: bold:;
+}
+#fotos2 p {
+    text-align: center;
+    
+}
+#Refer {
+    background: #F1F10F;
+    width: 100%;
+    height: 30px;
+    margin-top: -4px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: #F1F10F;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    font-weight: bold:;
+}
+#slider{
+height: 100px;
+      margin-top:3950px;
+    }
+}
