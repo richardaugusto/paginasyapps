@@ -470,7 +470,7 @@ footer {
     height: 150px;
   background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
     background-size: 100% 100%;
-      margin-top: 830px;
+      margin-top: 860px;
 
 
     animation: slider 20s infinite linear;
@@ -1107,7 +1107,7 @@ margin-top: 50px;
 #fotos2 section {
   
      width: 25%;
-    margin-left: 40px;
+    margin-left: 50px;
     margin-top: 53px;
 }
  p {
@@ -1141,7 +1141,7 @@ margin-top: 50px;
     height: 150px;
   background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
     background-size: 100% 100%;
-      margin-top:1500px;
+      margin-top:1540px;
     
 
     animation: slider 20s infinite linear;
@@ -1408,7 +1408,7 @@ margin-top: 50px;
     
 animation: slider 20s infinite linear;
 }
-
+}
 @media(max-width: 768px){
   body{
   background:#51DD1A;
@@ -1623,14 +1623,14 @@ text-shadow: 3px 3px 3px gray;
 #fotos section {
     
     
-    width: 40%;
-    margin-left: 40px;
+    width: 35%;
+    margin-left: 70px;
 margin-top: 50px;
 }
 #fotos2 section {
   
-     width: 40%;
-    margin-left: 40px;
+     width: 35%;
+    margin-left: 70px;
 }
  p {
     font-size: 6vw;
@@ -1663,14 +1663,276 @@ margin-top: 50px;
     height: 150px;
   
     
-      margin-top:2330px;
+      margin-top:2200px;
     background-size: 100% 100%;
       background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
 
 
     animation: slider 20s infinite linear;
 }
+}
+@media(max-width: 684px){
+  body{
+  background:#D70ADF;
+}
+#phone{
+ width: 100%;
+    height: 120px;
+      
+}
 
+   #contenedor #phone img{
+  width: 10%;
+  margin-top: 10px;
+  margin-left: 150px;
+
+}
+#phone h3{
+  font-size: 9vw;
+  margin-top: -70px;
+  margin-left: 250px;
+
+}
+#redes{
+  background: #1ADDC8;
+   width: 43%;
+    height: 47px;
+     margin-top: 5px;
+  
+    
+}
+#image img{
+
+   width: 20%;
+    height: 45px;
+    margin-top: 4px;
+    
+}
+  #banner img{
+    width: 100%;
+    height: 120px;
+        margin-top: -3px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -100px;
+        text-align: center;
+    }
+ header label {
+        display: block;
+        margin: -9px;
+        margin-bottom: 20px;
+    }
+    header label img {
+        width: 180%;
+        margin-top: 1px;
+    }
+    .menu {
+        position: absolute;
+      
+        width: 70%;
+        margin-left: -63%;
+        transition: all 0.5s;
+
+
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-top: -25px
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+  #btn-menu:checked~.menu {
+        margin: 0;
+    }
+ 
+#banner1 #slider1, aside{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -68px;
+}
+
+  #slider1{
+    width: 64.4%;
+    margin: 0;
+    overflow: hidden;
+    margin-top: -32px;
+}
+ #slider1 ul{
+display:flex;
+padding: 0;
+width: 400%;
+
+animation: cambio 22s infinite alternate linear;
+}
+#slider1 li{
+    width:  100%;
+    list-style: none;
+}
+ #slider1 img{
+    width: 100%;
+    height: 293px;
+    margin-top: 52px;
+    
+}
+@keyframes cambio {
+0% {margin-left: 0;}
+20% {margin-left: 0;}
+
+25% {margin-left: -100%;}
+45% {margin-left: -100%;}
+
+50% {margin-left: -200%;}
+70% {margin-left: -200%;}
+
+75% {margin-left: -300%;}
+100% {margin-left: -300%;}
+}   
+aside{
+    width: 34.7%;
+    height: 309px;
+
+
+margin-top: -40px;
+ box-shadow: #517D8D 4px 4px 4px;
+}
+aside h3{
+    margin-top: -75px;
+text-align: center;
+font-size: 4vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion1 img{
+    width: 100%;
+    height: 103px;
+    margin-top: 40px;
+}
+
+
+aside #informacion2 img{
+    width: 100%;
+    height: 103px;
+    margin-top: 7px;
+}
+aside h4{
+    margin-top: -75px;
+text-align: center;
+font-size: 4vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion3 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -3px;
+}
+aside h5{
+    margin-top: -75px;
+text-align: center;
+font-size: 3.8vw;
+text-shadow: 3px 3px 3px gray;
+}
+
+
+aside{
+    width: 34.7%;
+    height: 309px;
+
+
+margin-top: -40px;
+ box-shadow: #517D8D 4px 4px 4px;
+}
+aside h3{
+    margin-top: -75px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion1 img{
+    width: 100%;
+    height: 103px;
+    margin-top: 40px;
+}
+
+
+aside #informacion2 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -9px;
+}
+aside h4{
+    margin-top: -75px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion3 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -22px;
+}
+aside h5{
+    margin-top: -75px;
+text-align: center;
+font-size: 3.8vw;
+text-shadow: 3px 3px 3px gray;
+}
+#galery {
+  
+    font-size: 5vw;
+    margin-top: 20px;
+}
+#fotos section {
+    
+    
+    width: 35%;
+    margin-left: 60px;
+margin-top: 50px;
+}
+#fotos2 section {
+  
+     width: 35%;
+    margin-left: 60px;
+}
+ p {
+    font-size: 6vw;
+    margin-top:5px;
+   font-weight: bold:;
+}
+#fotos2 p {
+    text-align: center;
+    
+}
+#Refer {
+    background: green;
+    width: 100%;
+    height: 50px;
+    margin-top: -8px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: green;
+    width: 100%;
+    height: 50px;
+    margin-top: -4px;
+    font-weight: bold:;
+}
+#slider{
+    width: 100%;
+    height: 150px;
+  
+    
+      margin-top:2050px;
+    background-size: 100% 100%;
+      background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
+
+
+    animation: slider 20s infinite linear;
+}
+}
 @media(max-width: 677px){
   body{
   background: #E595C8;
@@ -2946,28 +3208,28 @@ height: 100px;
 }
 @media(max-width: 320px){
   body{
-  background: yellow;
+  background: #06CE22;
 }
 #phone{
  width: 100%;
-    height: 60px;
+    height: 70px;
       
 }
 
    #contenedor #phone img{
   width: 15%;
   margin-top: 10px;
-  margin-left: 40px;
+  margin-left: 60px;
 
 }
 #phone h3{
   font-size: 9vw;
-  margin-top: -35px;
-  margin-left: 100px;
+  margin-top: -45px;
+  margin-left: 120px;
 
 }
 #redes{
-  background: yellow;
+  background: gray;
    width: 43%;
     height: 32px;
      margin-top: 1px;
@@ -3043,14 +3305,20 @@ aside h3{
 font-size: 6vw;
 
 }
+aside #informacion1 img{
+    
+    height: 40px;
+    margin-top: -100px;
+
+    
+}
+
 
 aside #informacion2 img{
  
     height: 40px;
-
+    margin-top:-25x;
 }
-
-
 aside h4{
     margin-top: -33px;
 
@@ -3060,7 +3328,7 @@ font-size: 6vw;
 aside #informacion3 img{
     
     height: 40px;
-    
+    margin-top: -53px;
 }
 aside h5{
     margin-top: -32px;
@@ -3112,8 +3380,9 @@ text-shadow: 3px 3px 3px gray;
 }
 #slider{
 height: 100px;
-      margin-top: 4400px;
-    
+      margin-top: 4800px;
+
+    width: 100%;
 
   background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
     background-size: 100% 100%;
@@ -3123,7 +3392,6 @@ height: 100px;
     }
 
 }
-
 
 @media(max-width: 280px){
   body{
