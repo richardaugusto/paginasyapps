@@ -1,59 +1,94 @@
 body{
-    background: red;
-
+  background: red;
 }
-
 #phone{
  width: 100%;
-    height: 100px;
+    height: 120px;
     background: #4e94ab;   
 }
-    #what img{
-    margin-left: 440px;
-    margin-top:25px;
+    #phone img{
+  width: 6%;
+  margin-top: 8px;
+  margin-left: 800px;
+
 }
-#telefono h3{
-   width: 100%;
-    height: 30px;
-    margin-top: -90px;
-    text-align: center;
-    font-size: 5vw;
+#phone h3{
+  font-size: 7vw;
+  margin-top: -90px;
+  margin-left: 350px;
+
 }
+
 #redes{
     background: #4A94AB;
    width: 20%;
     height: 48px;
-     margin-top: 1px;
+     margin-top: 2px;
     float: right;
     
 }
 #image img{
 
-   width: 20%;
-    height: 48px;
-    margin-top: 1px;
+   width: 19%;
+    height: 40px;
+    margin-top: 4px;
      float: right;
      margin-left: 15px;
   border-radius: 10px;
 }
+
+  #banner img{
+    width: 100%;
+    height:120px;
+        margin-top: 2px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -125px;
+        text-align: center;
+    }
 #btn-menu {
     display: none;
 }
-#banner img{
-    width: 100%;
-    height: 120px;
-    margin-top: 6px;
-} 
+header label {
 
-#banner #titulo h1{
-    text-align: center;
-    margin-top: -115px;
-    font-size: 6vw;
-    }
-  
-#banner1 #slider1, aside{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+
+}
+header label:hover {
+     cursor: pointer;
+    background-color: yellow;
+}
+.menu ul {
+  width: 60%;
+     background: #4e94ab;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+   margin-top: 2px;
+}
+.menu li {
+    border-right: 1px solid #fff;
+}
+.menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 15px 20px;
+}
+
+ #banner1 #slider1, aside{
     display: inline-block;
     vertical-align: top;
+    margin-top: -68px;
 }
 
   #slider1{
@@ -75,8 +110,8 @@ animation: cambio 22s infinite alternate linear;
 }
  #slider1 img{
     width: 100%;
-    height: 362px;
-    margin-top: -21px;
+    height: 363px;
+    
 }
 @keyframes cambio {
 0% {margin-left: 0;}
@@ -90,32 +125,26 @@ animation: cambio 22s infinite alternate linear;
 
 75% {margin-left: -300%;}
 100% {margin-left: -300%;}
-}
-
-
-    
+}   
 aside{
     width: 34.7%;
     height: 360px;
-background: green;
-margin-top: -35px;
 
+margin-top: -51px;
+ box-shadow: #517D8D 4px 4px 4px;
 }
 aside h3{
     margin-top: -95px;
 text-align: center;
 font-size: 4vw;
-
+text-shadow: 3px 3px 3px gray;
 }
 aside #informacion1 img{
     width: 100%;
     height: 117px;
 }
 
-aside h3{
-    margin-top: -95px;
-text-align: center;
-}
+
 aside #informacion2 img{
     width: 100%;
     height: 117px;
@@ -125,6 +154,7 @@ aside h4{
     margin-top: -95px;
 text-align: center;
 font-size: 4vw;
+text-shadow: 3px 3px 3px gray;
 }
 aside #informacion3 img{
     width: 100%;
@@ -135,6 +165,129 @@ aside h5{
     margin-top: -95px;
 text-align: center;
 font-size: 3.8vw;
+text-shadow: 3px 3px 3px gray;
+}
+  #galery {
+    text-shadow: 2px 2px 2px white;
+    font-size: 3vw;
+    margin-top: 35px;
+}
+section #fotos {
+    float: left;
+    margin-top: -50px;
+}
+#fotos section {
+    float: left;
+    margin: 30px;
+    width: 20%;
+    margin-left: 35px;
+    box-shadow: #517D8D 4px 4px 4px;
+}
+#fotos2 section {
+    float: left;
+    margin: 30px;
+    width: 20%;
+    margin-left: 35px;
+    box-shadow: #517D8D 4px 4px 4px;
+}
+p {
+    font-size: 2vw;
+    margin-top: 28px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 2px white;
+}
+#fotos2 p {
+    text-align: center;
+}
+#Refer {
+    background: #158F90;
+    width: 100%;
+    height: 30px;
+    margin-top: -31px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+#precio {
+    background: #158F90;
+    width: 100%;
+    height: 30px;
+    margin-top: -27px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold;
+}
+
+footer {
+    background: blue;
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    box-shadow: #517D8D 4px 4px 4px;
+}
+
+#slider{
+    width: 100%;
+    height: 240px;
+  background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
+    background-size: 100% 100%;
+      margin-top: 1000px;
+
+
+    animation: slider 20s infinite linear;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background:  #4E94AB;
+    margin-top: 4px;
+}
+@keyframes slider{
+    to{
+        background-position: 2000px;
+}
+}
+@media(max-width: 1300px){
+  body{
+  background: blue;
+}
+
+#phone{
+ width: 100%;
+    height: 120px;
+    background: #4e94ab;   
+}
+
+
+#redes{
+    background: #4A94AB;
+   width: 20%;
+    height: 48px;
+     margin-top: 2px;
+    float: right;
+    
+}
+#image img{
+
+   width: 19%;
+    height: 40px;
+    margin-top: 4px;
+     float: right;
+     margin-left: 15px;
+  border-radius: 10px;
+}
+
+  #banner img{
+    width: 100%;
+    height:120px;
+        margin-top: 2px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -125px;
+        text-align: center;
+    }
+#btn-menu {
+    display: none;
 }
 header label {
 
@@ -143,17 +296,20 @@ header label {
     height: 30px;
     padding: 10px;
     border-right: 1px solid #fff;
+
 }
 header label:hover {
      cursor: pointer;
     background-color: yellow;
 }
 .menu ul {
+  width: 60%;
      background: #4e94ab;
     margin: 0;
     list-style: none;
     padding: 0;
     display: flex;
+   margin-top: 2px;
 }
 .menu li {
     border-right: 1px solid #fff;
@@ -167,30 +323,399 @@ header label:hover {
     display: block;
     padding: 15px 20px;
 }
-#fotos1{
-margin-top: 200px;
+
+ #banner1 #slider1, aside{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -68px;
+}
+
+  #slider1{
+    width: 65%;
+    margin: 0;
+    overflow: hidden;
+    margin-top: -32px;
+}
+ #slider1 ul{
+display:flex;
+padding: 0;
+width: 400%;
+
+animation: cambio 22s infinite alternate linear;
+}
+#slider1 li{
+    width:  100%;
+    list-style: none;
+}
+ #slider1 img{
+    width: 100%;
+    height: 355px;
+    margin-top: 10px;
+    
+}
+@keyframes cambio {
+0% {margin-left: 0;}
+20% {margin-left: 0;}
+
+25% {margin-left: -100%;}
+45% {margin-left: -100%;}
+
+50% {margin-left: -200%;}
+70% {margin-left: -200%;}
+
+75% {margin-left: -300%;}
+100% {margin-left: -300%;}
+}   
+aside{
+    width: 34.5%;
+    height: 345px;
+
+margin-top: -30px;
+ box-shadow: #517D8D 4px 4px 4px;
+}
+aside h3{
+    margin-top: -95px;
+text-align: center;
+font-size: 4vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion1 img{
+    width: 100%;
+    height: 117px;
+    margin-top: -12px;
 
 }
 
-#fotos1 #fotos img{
-    margin: 50px;
-    width: 17%;
-    height:300px;
-    margin-right: 50px;
-    margin-top: 70px;
 
+aside #informacion2 img{
+    width: 100%;
+    height: 117px;
+    margin-top: -18px;
+}
+aside h4{
+    margin-top: -95px;
+text-align: center;
+font-size: 4vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion3 img{
+    width: 100%;
+    height: 117px;
+    margin-top: -34px;
+}
+aside h5{
+    margin-top: -95px;
+text-align: center;
+font-size: 3.8vw;
+text-shadow: 3px 3px 3px gray;
+}
+  #galery {
+    text-shadow: 2px 2px 2px white;
+    font-size: 3vw;
+    margin-top: 35px;
+}
+section #fotos {
+    float: left;
+    margin-top: -50px;
+}
+#fotos section {
+    float: left;
+    margin-left: 57px;
+    width: 17%;
+    margin-top: 60px;
+    box-shadow: #517D8D 4px 4px 4px;
+}
+#fotos2 section {
+    float: left;
+  margin-left: 57px;
+    width: 17%;
+    box-shadow: #517D8D 4px 4px 4px;
+}
+p {
+    font-size: 2vw;
+    margin-top: 28px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 2px white;
+}
+#fotos2 p {
+    text-align: center;
+}
+#Refer {
+    background: #158F90;
+    width: 100%;
+    height: 30px;
+    margin-top: -31px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+#precio {
+    background: #158F90;
+    width: 100%;
+    height: 30px;
+    margin-top: -27px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold;
+}
+
+footer {
+    background: blue;
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    box-shadow: #517D8D 4px 4px 4px;
 }
 
 #slider{
     width: 100%;
-    height: 120px;
+    height: 220px;
   background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
     background-size: 100% 100%;
+      margin-top: 860px;
+
 
     animation: slider 20s infinite linear;
-    margin-top: 60px;
-    }
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background:  #4E94AB;
+    margin-top: 4px;
+}
+@keyframes slider{
+    to{
+        background-position: 2000px;
+}
+}
+@media(max-width: 1200px){
+  body{
+  background: blue;
+}
 
+#phone{
+ width: 100%;
+    height: 100px;
+    background: #4e94ab;   
+}
+
+
+#redes{
+    background: #4A94AB;
+   width: 20%;
+    height: 48px;
+     margin-top: 2px;
+    float: right;
+    
+}
+#image img{
+
+   width: 19%;
+    height: 40px;
+    margin-top: 4px;
+     float: right;
+     margin-left: 15px;
+  border-radius: 10px;
+}
+
+  #banner img{
+    width: 100%;
+    height:120px;
+        margin-top: 2px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -125px;
+        text-align: center;
+    }
+#btn-menu {
+    display: none;
+}
+header label {
+
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+
+}
+header label:hover {
+     cursor: pointer;
+    background-color: yellow;
+}
+.menu ul {
+  width: 60%;
+     background: #4e94ab;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+   margin-top: 2px;
+}
+.menu li {
+    border-right: 1px solid #fff;
+}
+.menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 15px 20px;
+}
+
+ #banner1 #slider1, aside{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -68px;
+}
+
+  #slider1{
+    width: 65%;
+    margin: 0;
+    overflow: hidden;
+    margin-top: -32px;
+}
+ #slider1 ul{
+display:flex;
+padding: 0;
+width: 400%;
+
+animation: cambio 22s infinite alternate linear;
+}
+#slider1 li{
+    width:  100%;
+    list-style: none;
+}
+ #slider1 img{
+    width: 100%;
+    height: 355px;
+    margin-top: 23px;
+    
+}
+@keyframes cambio {
+0% {margin-left: 0;}
+20% {margin-left: 0;}
+
+25% {margin-left: -100%;}
+45% {margin-left: -100%;}
+
+50% {margin-left: -200%;}
+70% {margin-left: -200%;}
+
+75% {margin-left: -300%;}
+100% {margin-left: -300%;}
+}   
+aside{
+    width: 34.5%;
+    height: 360px;
+
+margin-top: -30px;
+ box-shadow: #517D8D 4px 4px 4px;
+}
+aside h3{
+    margin-top: -95px;
+text-align: center;
+font-size: 4vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion1 img{
+    width: 100%;
+    height: 117px;
+margin-top: 3px;
+}
+
+
+aside #informacion2 img{
+    width: 100%;
+    height: 117px;
+    margin-top: -10px;
+}
+aside h4{
+    margin-top: -95px;
+text-align: center;
+font-size: 4vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion3 img{
+    width: 100%;
+    height: 117px;
+    margin-top: -26px;
+}
+aside h5{
+    margin-top: -95px;
+text-align: center;
+font-size: 3.8vw;
+text-shadow: 3px 3px 3px gray;
+}
+  #galery {
+    text-shadow: 2px 2px 2px white;
+    font-size: 3vw;
+    margin-top: 35px;
+}
+section #fotos {
+    float: left;
+    margin-top: -50px;
+}
+#fotos section {
+    float: left;
+    margin-left: 57px;
+    width: 17%;
+    margin-top: 60px;
+    box-shadow: #517D8D 4px 4px 4px;
+}
+#fotos2 section {
+    float: left;
+  margin-left: 57px;
+    width: 17%;
+    box-shadow: #517D8D 4px 4px 4px;
+}
+p {
+    font-size: 2vw;
+    margin-top: 28px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 2px white;
+}
+#fotos2 p {
+    text-align: center;
+}
+#Refer {
+    background: #158F90;
+    width: 100%;
+    height: 30px;
+    margin-top: -31px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+#precio {
+    background: #158F90;
+    width: 100%;
+    height: 30px;
+    margin-top: -27px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold;
+}
+
+footer {
+    background: blue;
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    box-shadow: #517D8D 4px 4px 4px;
+}
+
+#slider{
+    width: 100%;
+    height: 220px;
+  background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
+    background-size: 100% 100%;
+      margin-top: 830px;
+
+
+    animation: slider 20s infinite linear;
+}
 footer{
     width: 100%;
     height: 100px;
@@ -203,379 +728,75 @@ footer{
 }
 }
 
-
-
-
-
-@media(max-width: 1359px) and (min-width: 1201px){
-
-    body{
-        background: blue;
-}
-    #what img{
-    margin-left: 410px;
-    margin-top:25px;
-}
-  #slider1{
-    width: 65%;
-    margin: 0;
-    overflow: hidden;
-    margin-top: -32px;
-}
-  aside{
-    width: 34.4%;
-    margin-top: -32px;
-}
- #slider1 img{
-    height: 366px;
-    
-}
- 
-#fotos img{
-    width: 17%;
-margin: 60px;
-    margin-right: 30px;
-    margin-top: 70px;
-
-}
-
- #slider{
-    width: 100%;
-    margin-top: 80px;
-   }
-}
-
-@media(max-width: 1200px) and (min-width: 992px){
-    body{
-        background: #DCE40C;
-    }
-       #what img{
-    margin-left: 330px;
-    margin-top: 15px;
-}
-      #slider1{
-    width: 65%;
-    margin: 0;
-    overflow: hidden;
-    margin-top: -32px;
-}
- #slider1 img{
-    margin-top: 20px;
-    height: 335px;
-    
-}
-
-
-aside{
-    width: 34.2%;
-    margin-top: 15px;
-    
-}
-
-aside #informacion1 img{
-    width: 100%;
-    height: 117px;
-    margin-top: -13px;
-}
-
-aside h3{
-    margin-top: -95px;
-text-align: center;
-}
-aside #informacion2 img{
-    width: 100%;
-    height: 117px;
-    margin-top: 5px;
-}
-aside h4{
-    margin-top: -95px;
-text-align: center;
-font-size: 4vw;
-}
-aside #informacion3 img{
-    width: 100%;
-    height: 100px;
-    margin-top: -9px;
-}
-aside h5{
-    margin-top: -95px;
-text-align: center;
-font-size: 3.8vw;
-}
-
-
-
-#fotos1{
-margin-top: 200px;
-
-}
-
-#fotos1 #fotos img{
-    margin: 50px;
-    width: 14%;
-    height:230px;
-    margin-right: 55px;
-    margin-top: 70px;
-
-}
-}
-@media(max-width: 991px) and (min-width: 769px){
-    body{
-        background: #808168;
-    }
-    #what img{
-    margin-left: 265px;
-    margin-top: 20px;
-}
-#telefono h3{
-    margin-top: -82px;
-}
-    #redes{
-        background: #808168;
-        margin-top: 20px;
-    }
-    #redes img{
-        margin-top: 10px;
-        width: 21%;
-        height: 40px;
-        margin-left: 20px;
-    }
-    #banner img{
-        margin-top: 8px;
-    }
- header label {
-        display: block;
-        margin: -9px;
-        margin-bottom: 28px;
-    }
-    header label img {
-        margin: 2px;
-        margin-top: 14px;
-    }
-    .menu {
-        position: absolute;
-        background: #4E94AB;
-        width: 60%;
-        margin-left: -63%;
-        transition: all 0.5s;
-    }
-    .menu ul {
-        flex-direction: column;
-    }
-    .menu li {
-        border-top: 1px solid #fff;
-    }
-    #btn-menu:checked~.menu {
-        margin: 0;
-    }
-      #slider1{
-    width: 100%;
-    margin: 0;
-    overflow: hidden;
-    margin-top: -32px;
-}
-    #slider1 img{
-        margin-top: 25px;
-width: 100%;
-    
-    height: 353px;
-    
-}
-aside{
-    width: 100%;
-    margin-top: 27px;
-}
-aside #informacion1 img{
-  
-    margin-top: -43px;
-}
-
-aside h3{
-    margin-top: -82px;
-}
-aside #informacion2 img{
-   
-    margin-top: 7px;
-}
-aside h4{
-    margin-top: -82px;
-}
-aside #informacion3 img{
-    
-    margin-top: -5px;
-}
-#fotos1{
-margin-top: 140px;
-}
- #fotos1 #fotos img{
- margin: 60px;
-    width: 100%;
-    margin-left:  -2px;
-   margin-top: 150px;
-    height: 1000px;
-
-}
-
-    }
-@media(max-width: 768px) and (min-width: 677px){
-    body{
-        background: #D81616;
-}
-
-#what img{
-    margin-left: 220px;
-    margin-top: 20px;
-}
-#telefono h3{
-    margin-top: -75px;
-}
-  #redes{
-    background: #D81616;
-    width: 30%;
-        margin-top: 30px;
-    }
-   #redes img{
-    margin-top: 5px;
-        width: 20%;
-        height: 40px;
-    }
-     #banner img{
-        height: 100px;
-        margin-top: 12px;
-    }
-    #banner #titulo h1{
-        margin-top: -80px;
-    }
- header label {
-        display: block;
-        margin: -9px;
-        margin-bottom: 28px;
-    }
-    header label img {
-        
-        margin-top: 20px;
-    }
-    .menu {
-        position: absolute;
-        background: #4E94AB;
-        width: 60%;
-        margin-left: -63%;
-        transition: all 0.5s;
-    }
-    .menu ul {
-        flex-direction: column;
-    }
-    .menu li {
-        border-top: 1px solid #fff;
-    }
-  #btn-menu:checked~.menu {
-        margin: 0;
-    }
-      #slider1{
-    width: 100%;
-    margin: 0;
-    overflow: hidden;
-    margin-top: -32px;
-}
-        #slider1 img{
-        margin-top: 12px;
-
-    
-}
-
-aside{
-    margin-top: -15px;
-    width: 100%;
-}
-aside #informacion1 img{
-  height: 60px;
-    margin-top: -2px;
-}
-
-aside h3{
-    margin-top: -52px;
-}
-aside #informacion2 img{
-   height: 60px;
-    margin-top: -9px;
-}
-aside h4{
-    margin-top: -52px;
-}
-aside #informacion3 img{
-    height: 60px;
-    margin-top: -18px;
-}
-aside h5{
-    margin-top: -52px;
-}
-#fotos {
-    margin: 4px;
-    margin-top: -170px;
-    background: pink;
-    width: 99%;
-}
-#fotos1 #fotos img{
-    height: 900px;
-    margin: 2px;
-    width: 99.4%;
-    margin-top: 90px;
-}
-}
-
-
-
-@media(max-width: 676px) and (min-width: 480px){
-    body{
-        background: #04C7C5;
+@media(max-width: 1024px){
+  body{
+  background: blue;
 }
 #phone{
-    height: 80px;
+ width: 100%;
+    height: 120px;
+      
 }
- #what img{
-    margin-top: 10px;
-    margin-left: 130px;
+
+    #phone img{
+  width: 10%;
+  margin-top: 8px;
+  margin-left: 230px;
+
 }
-#telefono h3{
-    margin-top: -55px;
-    }
- #redes{
-    background: #04C7C5;
-width: 40%;
-        margin-top: 12px;
-    }
-     #redes img{
-    margin-top: 12px;
-        width: 20%;
-        height: 35px;
-        border-radius: 5px;
-    }
-   #banner img{
-    height: 100px;
-        margin-top: 10px;
-    }
-     #banner #titulo h1{
-        margin-top: -80px;
-    }
+#phone h3{
+  font-size: 9vw;
+  margin-top: -90px;
+  margin-left: 350px;
+
+}
+#redes{
+  background: #1ADDC8;
+   width: 35%;
+    height: 50px;
+     margin-top: 5px;
+  
     
+}
+#image img{
+
+   width: 18%;
+    height: 45px;
+    margin-top: 4px;
+    
+}
+  #banner img{
+    width: 100%;
+    height: 120px;
+        margin-top: -3px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -100px;
+        text-align: center;
+    }
+
  header label {
         display: block;
         margin: -9px;
         margin-bottom: 20px;
     }
     header label img {
-        
-        margin-top: 7px;
+        width: 180%;
+        margin-top: 1px;
     }
     .menu {
         position: absolute;
-        background: #4E94AB;
-        width: 60%;
+      
+        width: 70%;
         margin-left: -63%;
         transition: all 0.5s;
+
+
     }
     .menu ul {
         flex-direction: column;
+        margin-top: -25px
     }
     .menu li {
         border-top: 1px solid #fff;
@@ -583,233 +804,1363 @@ width: 40%;
   #btn-menu:checked~.menu {
         margin: 0;
     }
-       #slider1 img{
-        width: 100%;
-        margin-top: 21px;
-
-    
+ 
+#banner1 #slider1, aside{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -68px;
 }
-       #slider1 {
-        width: 100%;
 
-    
+  #slider1{
+    width: 64.4%;
+    margin: 0;
+    overflow: hidden;
+    margin-top: -32px;
 }
-aside{
+ #slider1 ul{
+display:flex;
+padding: 0;
+width: 400%;
+
+animation: cambio 22s infinite alternate linear;
+}
+#slider1 li{
+    width:  100%;
+    list-style: none;
+}
+ #slider1 img{
     width: 100%;
-    margin-top: -14px;
+    height: 315px;
+    margin-top: 19px;
+    
 }
-aside #informacion1 img{
-  height: 60px;
-    margin-top: -2px;
-}
+@keyframes cambio {
+0% {margin-left: 0;}
+20% {margin-left: 0;}
+
+25% {margin-left: -100%;}
+45% {margin-left: -100%;}
+
+50% {margin-left: -200%;}
+70% {margin-left: -200%;}
+
+75% {margin-left: -300%;}
+100% {margin-left: -300%;}
+}   
 
 aside h3{
-    margin-top: -52px;
+    margin-top: -75px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
 }
+aside #informacion1 img{
+    width: 100%;
+    height: 103px;
+    margin-top: 36px;
+}
+
+
 aside #informacion2 img{
-   height: 60px;
-    margin-top: -2px;
+    width: 100%;
+    height: 103px;
+    margin-top: -36px;
 }
 aside h4{
-    margin-top: -52px;
+    margin-top: -75px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
 }
 aside #informacion3 img{
-    height: 60px;
+    width: 100%;
+    height: 103px;
+    margin-top: -53px;
+}
+aside h5{
+    margin-top: -75px;
+text-align: center;
+font-size: 3.8vw;
+text-shadow: 3px 3px 3px gray;
+}
+#galery {
+  
+    font-size: 5vw;
+    margin-top: 20px;
+}
+#fotos section {
+    
+    
+    width: 25%;
+    margin-left: 40px;
+margin-top: 50px;
+}
+#fotos2 section {
+  
+     width: 25%;
+    margin-left: 40px;
+    margin-top: 53px;
+}
+ p {
+    font-size: 3vw;
+    margin-top:5px;
+   font-weight: bold:;
+}
+#fotos2 p {
+    text-align: center;
+    
+}
+#Refer {
+    background: green;
+    width: 100%;
+    height: 50px;
+    margin-top: -8px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: green;
+    width: 100%;
+    height: 50px;
+    margin-top: -4px;
+    font-weight: bold:;
+}
+#slider{
+    width: 100%;
+    height: 150px;
+  background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
+    background-size: 100% 100%;
+      margin-top:1580px;
+
+
+    animation: slider 20s infinite linear;
+}
+
+@media(max-width: 991px){
+  body{
+  background: blue;
+}
+#phone{
+ width: 100%;
+    height: 120px;
+      
+}
+
+    #phone img{
+  width: 10%;
+  margin-top: 8px;
+  margin-left: 230px;
+
+}
+#phone h3{
+  font-size: 9vw;
+  margin-top: -90px;
+  margin-left: 350px;
+
+}
+#redes{
+  background: #1ADDC8;
+   width: 35%;
+    height: 50px;
+     margin-top: 5px;
+  
+    
+}
+#image img{
+
+   width: 18%;
+    height: 45px;
+    margin-top: 4px;
+    
+}
+  #banner img{
+    width: 100%;
+    height: 120px;
+        margin-top: -3px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+    margin-top: -110px;
+            text-align: center;
+    }
+
+ header label {
+        display: block;
+        margin: -9px;
+        margin-bottom: 20px;
+    }
+    header label img {
+        width: 180%;
+        margin-top: 1px;
+    }
+    .menu {
+        position: absolute;
+      
+        width: 70%;
+        margin-left: -63%;
+        transition: all 0.5s;
+
+
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-top: -25px
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+  #btn-menu:checked~.menu {
+        margin: 0;
+    }
+ 
+#banner1 #slider1, aside{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -68px;
+}
+
+  #slider1{
+    width: 64.4%;
+    margin: 0;
+    overflow: hidden;
+    margin-top: -32px;
+}
+ #slider1 ul{
+display:flex;
+padding: 0;
+width: 400%;
+
+animation: cambio 22s infinite alternate linear;
+}
+#slider1 li{
+    width:  100%;
+    list-style: none;
+}
+ #slider1 img{
+    width: 100%;
+    height: 309px;
+    margin-top: 34px;
+    
+}
+@keyframes cambio {
+0% {margin-left: 0;}
+20% {margin-left: 0;}
+
+25% {margin-left: -100%;}
+45% {margin-left: -100%;}
+
+50% {margin-left: -200%;}
+70% {margin-left: -200%;}
+
+75% {margin-left: -300%;}
+100% {margin-left: -300%;}
+}   
+
+aside h3{
+    margin-top: -75px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion1 img{
+    width: 100%;
+    height: 103px;
+    margin-top: 51px;
+}
+
+
+aside #informacion2 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -34px;
+}
+aside h4{
+    margin-top: -65px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion3 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -65px;
+}
+aside h5{
+    margin-top: -75px;
+text-align: center;
+font-size: 3.8vw;
+text-shadow: 3px 3px 3px gray;
+}
+#galery {
+  
+    font-size: 5vw;
+    margin-top: 20px;
+}
+#fotos section {
+    
+    
+    width: 25%;
+    margin-left: 40px;
+margin-top: 50px;
+}
+#fotos2 section {
+  
+     width: 25%;
+    margin-left: 40px;
+    margin-top: 53px;
+}
+ p {
+    font-size: 3vw;
+    margin-top:5px;
+   font-weight: bold:;
+}
+#fotos2 p {
+    text-align: center;
+    
+}
+#Refer {
+    background: green;
+    width: 100%;
+    height: 50px;
+    margin-top: -8px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: green;
+    width: 100%;
+    height: 50px;
+    margin-top: -4px;
+    font-weight: bold:;
+}
+#slider{
+    width: 100%;
+    height: 150px;
+  background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
+    background-size: 100% 100%;
+      margin-top:1600px;
+    
+
+    animation: slider 20s infinite linear;
+}
+
+
+
+@media(max-width: 800px){
+  body{
+  background: blue;
+}
+#phone{
+ width: 100%;
+    height: 120px;
+      
+}
+
+   #contenedor #phone img{
+  width: 10%;
+  margin-top: 10px;
+  margin-left: 150px;
+
+}
+#phone h3{
+  font-size: 9vw;
+  margin-top: -70px;
+  margin-left: 250px;
+
+}
+#redes{
+  background: #1ADDC8;
+   width: 43%;
+    height: 47px;
+     margin-top: 5px;
+  
+    
+}
+#image img{
+
+   width: 20%;
+    height: 45px;
+    margin-top: 4px;
+    
+}
+  #banner img{
+    width: 100%;
+    height: 120px;
+        margin-top: -3px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -100px;
+        text-align: center;
+    }
+
+ header label {
+        display: block;
+        margin: -9px;
+        margin-bottom: 20px;
+    }
+    header label img {
+        width: 180%;
+        margin-top: 1px;
+    }
+    .menu {
+        position: absolute;
+      
+        width: 70%;
+        margin-left: -63%;
+        transition: all 0.5s;
+
+
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-top: -25px
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+  #btn-menu:checked~.menu {
+        margin: 0;
+    }
+ 
+#banner1 #slider1, aside{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -68px;
+}
+
+  #slider1{
+    width: 64.4%;
+    margin: 0;
+    overflow: hidden;
+    margin-top: -32px;
+}
+ #slider1 ul{
+display:flex;
+padding: 0;
+width: 400%;
+
+animation: cambio 22s infinite alternate linear;
+}
+#slider1 li{
+    width:  100%;
+    list-style: none;
+}
+ #slider1 img{
+    width: 100%;
+    height: 323px;
+    margin-top: 48px;
+    
+}
+@keyframes cambio {
+0% {margin-left: 0;}
+20% {margin-left: 0;}
+
+25% {margin-left: -100%;}
+45% {margin-left: -100%;}
+
+50% {margin-left: -200%;}
+70% {margin-left: -200%;}
+
+75% {margin-left: -300%;}
+100% {margin-left: -300%;}
+}   
+aside{
+    width: 34.7%;
+    height: 309px;
+
+
+margin-top: -64px;
+ box-shadow: #517D8D 4px 4px 4px;
+}
+aside h3{
+    margin-top: -75px;
+text-align: center;
+font-size: 4vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion1 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -40px;
+}
+
+
+aside #informacion2 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -27px;
+}
+aside h4{
+    margin-top: -105px;
+text-align: center;
+font-size: 4vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion3 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -3px;
+}
+aside h5{
+    margin-top: -75px;
+text-align: center;
+font-size: 3.8vw;
+text-shadow: 3px 3px 3px gray;
+}
+
+
+aside{
+    width: 34.7%;
+    height: 309px;
+
+
+margin-top: -40px;
+ box-shadow: #517D8D 4px 4px 4px;
+}
+aside h3{
+    margin-top: -75px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion1 img{
+    width: 100%;
+    height: 103px;
+    margin-top: 36px;
+}
+
+
+aside #informacion2 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -9px;
+}
+aside h4{
+    margin-top: -75px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion3 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -22px;
+}
+aside h5{
+    margin-top: -75px;
+text-align: center;
+font-size: 3.8vw;
+text-shadow: 3px 3px 3px gray;
+}
+#galery {
+  
+    font-size: 5vw;
+    margin-top: 20px;
+}
+#fotos section {
+    
+    
+    width: 40%;
+    margin-left: 40px;
+margin-top: 50px;
+}
+#fotos2 section {
+  
+     width: 40%;
+    margin-left: 40px;
+}
+ p {
+    font-size: 6vw;
+    margin-top:5px;
+   font-weight: bold:;
+}
+#fotos2 p {
+    text-align: center;
+    
+}
+#Refer {
+    background: green;
+    width: 100%;
+    height: 50px;
+    margin-top: -8px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: green;
+    width: 100%;
+    height: 50px;
+    margin-top: -4px;
+    font-weight: bold:;
+}
+#slider{
+    width: 100%;
+    height: 150px;
+  background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
+    background-size: 100% 100%;
+      margin-top:2400px;
+    
+animation: slider 20s infinite linear;
+}
+}
+@media(max-width: 768px){
+  body{
+  background:#51DD1A;
+}
+#phone{
+ width: 100%;
+    height: 120px;
+      
+}
+
+   #contenedor #phone img{
+  width: 10%;
+  margin-top: 10px;
+  margin-left: 150px;
+
+}
+#phone h3{
+  font-size: 9vw;
+  margin-top: -70px;
+  margin-left: 250px;
+
+}
+#redes{
+  background: #1ADDC8;
+   width: 43%;
+    height: 47px;
+     margin-top: 5px;
+  
+    
+}
+#image img{
+
+   width: 20%;
+    height: 45px;
+    margin-top: 4px;
+    
+}
+  #banner img{
+    width: 100%;
+    height: 120px;
+        margin-top: -3px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -100px;
+        text-align: center;
+    }
+ header label {
+        display: block;
+        margin: -9px;
+        margin-bottom: 20px;
+    }
+    header label img {
+        width: 180%;
+        margin-top: 1px;
+    }
+    .menu {
+        position: absolute;
+      
+        width: 70%;
+        margin-left: -63%;
+        transition: all 0.5s;
+
+
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-top: -25px
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+  #btn-menu:checked~.menu {
+        margin: 0;
+    }
+ 
+#banner1 #slider1, aside{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -68px;
+}
+
+  #slider1{
+    width: 64.4%;
+    margin: 0;
+    overflow: hidden;
+    margin-top: -32px;
+}
+ #slider1 ul{
+display:flex;
+padding: 0;
+width: 400%;
+
+animation: cambio 22s infinite alternate linear;
+}
+#slider1 li{
+    width:  100%;
+    list-style: none;
+}
+ #slider1 img{
+    width: 100%;
+    height: 314px;
+    margin-top: 52px;
+    
+}
+@keyframes cambio {
+0% {margin-left: 0;}
+20% {margin-left: 0;}
+
+25% {margin-left: -100%;}
+45% {margin-left: -100%;}
+
+50% {margin-left: -200%;}
+70% {margin-left: -200%;}
+
+75% {margin-left: -300%;}
+100% {margin-left: -300%;}
+}   
+aside{
+    width: 34.7%;
+    height: 309px;
+
+
+margin-top: -40px;
+ box-shadow: #517D8D 4px 4px 4px;
+}
+aside h3{
+    margin-top: -75px;
+text-align: center;
+font-size: 4vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion1 img{
+    width: 100%;
+    height: 103px;
+    margin-top: 40px;
+}
+
+
+aside #informacion2 img{
+    width: 100%;
+    height: 103px;
+    margin-top: 7px;
+}
+aside h4{
+    margin-top: -75px;
+text-align: center;
+font-size: 4vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion3 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -3px;
+}
+aside h5{
+    margin-top: -75px;
+text-align: center;
+font-size: 3.8vw;
+text-shadow: 3px 3px 3px gray;
+}
+
+
+aside{
+    width: 34.7%;
+    height: 309px;
+
+
+margin-top: -40px;
+ box-shadow: #517D8D 4px 4px 4px;
+}
+aside h3{
+    margin-top: -75px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion1 img{
+    width: 100%;
+    height: 103px;
+    margin-top: 40px;
+}
+
+
+aside #informacion2 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -9px;
+}
+aside h4{
+    margin-top: -75px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion3 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -22px;
+}
+aside h5{
+    margin-top: -75px;
+text-align: center;
+font-size: 3.8vw;
+text-shadow: 3px 3px 3px gray;
+}
+#galery {
+  
+    font-size: 5vw;
+    margin-top: 20px;
+}
+#fotos section {
+    
+    
+    width: 35%;
+    margin-left: 70px;
+margin-top: 50px;
+}
+#fotos2 section {
+  
+     width: 35%;
+    margin-left: 70px;
+}
+ p {
+    font-size: 6vw;
+    margin-top:5px;
+   font-weight: bold:;
+}
+#fotos2 p {
+    text-align: center;
+    
+}
+#Refer {
+    background: green;
+    width: 100%;
+    height: 50px;
+    margin-top: -8px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: green;
+    width: 100%;
+    height: 50px;
+    margin-top: -4px;
+    font-weight: bold:;
+}
+#slider{
+    width: 100%;
+    height: 150px;
+  
+    
+      margin-top:2200px;
+    background-size: 100% 100%;
+      background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
+
+
+    animation: slider 20s infinite linear;
+}
+}
+@media(max-width: 684px){
+ body{
+  background:#51DD1A;
+}
+#phone{
+ width: 100%;
+    height: 120px;
+      
+}
+
+   #contenedor #phone img{
+  width: 10%;
+  margin-top: 10px;
+  margin-left: 150px;
+
+}
+#phone h3{
+  font-size: 9vw;
+  margin-top: -70px;
+  margin-left: 250px;
+
+}
+#redes{
+  background: #1ADDC8;
+   width: 43%;
+    height: 47px;
+     margin-top: 5px;
+  
+    
+}
+#image img{
+
+   width: 20%;
+    height: 45px;
+    margin-top: 4px;
+    
+}
+  #banner img{
+    width: 100%;
+    height: 120px;
+        margin-top: -3px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -100px;
+        text-align: center;
+    }
+ header label {
+        display: block;
+        margin: -9px;
+        margin-bottom: 20px;
+    }
+    header label img {
+        width: 180%;
+        margin-top: 1px;
+    }
+    .menu {
+        position: absolute;
+      
+        width: 70%;
+        margin-left: -63%;
+        transition: all 0.5s;
+
+
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-top: -25px
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+  #btn-menu:checked~.menu {
+        margin: 0;
+    }
+ 
+#banner1 #slider1, aside{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -68px;
+}
+
+  #slider1{
+    width: 64.4%;
+    margin: 0;
+    overflow: hidden;
+    margin-top: -32px;
+}
+ #slider1 ul{
+display:flex;
+padding: 0;
+width: 400%;
+
+animation: cambio 22s infinite alternate linear;
+}
+#slider1 li{
+    width:  100%;
+    list-style: none;
+}
+ #slider1 img{
+    width: 100%;
+    height: 293px;
+    margin-top: 63px;
+    
+}
+@keyframes cambio {
+0% {margin-left: 0;}
+20% {margin-left: 0;}
+
+25% {margin-left: -100%;}
+45% {margin-left: -100%;}
+
+50% {margin-left: -200%;}
+70% {margin-left: -200%;}
+
+75% {margin-left: -300%;}
+100% {margin-left: -300%;}
+}   
+aside{
+    width: 34.7%;
+    height: 309px;
+
+
+margin-top: -40px;
+ box-shadow: #517D8D 4px 4px 4px;
+}
+aside h3{
+    margin-top: -75px;
+text-align: center;
+font-size: 4vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion1 img{
+    width: 100%;
+    height: 103px;
+    margin-top: 40px;
+}
+
+
+aside #informacion2 img{
+    width: 100%;
+    height: 103px;
+    margin-top: 7px;
+}
+aside h4{
+    margin-top: -75px;
+text-align: center;
+font-size: 4vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion3 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -3px;
+}
+aside h5{
+    margin-top: -75px;
+text-align: center;
+font-size: 3.8vw;
+text-shadow: 3px 3px 3px gray;
+}
+
+
+aside{
+    width: 34.7%;
+    height: 309px;
+
+
+margin-top: -40px;
+ box-shadow: #517D8D 4px 4px 4px;
+}
+aside h3{
+    margin-top: -75px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion1 img{
+    width: 100%;
+    height: 103px;
+    margin-top: 52px;
+}
+
+
+aside #informacion2 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -9px;
+}
+aside h4{
+    margin-top: -75px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion3 img{
+    width: 100%;
+    height: 103px;
+    margin-top: -22px;
+}
+aside h5{
+    margin-top: -75px;
+text-align: center;
+font-size: 3.8vw;
+text-shadow: 3px 3px 3px gray;
+}
+#galery {
+  
+    font-size: 5vw;
+    margin-top: 20px;
+}
+#fotos section {
+    
+    
+    width: 35%;
+    margin-left: 57px;
+margin-top: 50px;
+}
+#fotos2 section {
+  
+     width: 35%;
+    margin-left: 57px;
+}
+ p {
+    font-size: 6vw;
+    margin-top:5px;
+   font-weight: bold:;
+}
+#fotos2 p {
+    text-align: center;
+    
+}
+#Refer {
+    background: green;
+    width: 100%;
+    height: 50px;
+    margin-top: -8px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: green;
+    width: 100%;
+    height: 50px;
+    margin-top: -4px;
+    font-weight: bold:;
+}
+#slider{
+    width: 100%;
+    height: 150px;
+  
+    
+      margin-top:2040px;
+    background-size: 100% 100%;
+      background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
+
+
+    animation: slider 20s infinite linear;
+}
+}
+@media(max-width: 677px){
+  body{
+  background: #E595C8;
+}
+#contenedor #phone img{
+    margin-top: 10px;
+}
+#phone h3{
+margin-top: -50px;
+}
+
+#slider1 img{
+  margin-top: 64px;
+  height: 293px;
+}
+
+aside{
+    width: 34.7%;
+    height: 309px;
+
+
+margin-top: -100px;
+ 
+}
+aside h3{
+    margin-top: -100px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+
+aside #informacion1 img{
+    margin-top: 112px;
+}
+
+aside #informacion2 img{
+    width: 100%;
+    height: 103px;
+    margin-top: 6px;
+}
+aside h4{
+    margin-top: -75px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+aside #informacion3 img{
+    width: 100%;
+    height: 103px;
     margin-top: -10px;
 }
 aside h5{
-    margin-top: -52px;
+    margin-top: -95px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
 }
-#fotos{
-    width: 100%;
-    margin-top: -150px;
+#fotos section {
+    
+    
+    width: 35%;
+    margin-left: 45px;
+margin-top: 50px;
 }
-#fotos1 #fotos img{
-   margin: 2px;
-    width: 99.4%;
-    height: 700px;
-    margin-top: 90px;
-}
-#slider{
-    margin-top: 34px;
-}
-}
-@media(max-width: 479px) and (min-width: 320px){
-    body{
-        background: yellow;
-}
-#phone{
-
-    height: 60px;
-    margin-top: 2px;
-}
-#what img {
-    margin-top: 7px;
-    margin-left: 60px;
-}
-#telefono h3{
-    color:  white;
-    margin-top: -35px;
-    }
- #redes{
-
-width: 50%;
-background: yellow;
-        margin-top: -5px;
-    }
-     #redes img{
-    margin-top: 6px;
-        width: 22%;
-        height: 40px;
-    }
-
-#banner img{
-    margin-top: 8px;
-    height: 70px;
-       
-    }
-      #banner #titulo h1{
-        font-size: 6vw;
-
-        margin-top: -56px;
-    }
- header label {
-display: none;
-        display: block;
-        margin: -9px;
-        margin-bottom: -2px;
-    }
-    header label img {
-        
-        margin-top: -12px;
-    }
-    .menu {
-        position: absolute;
-        background: #4E94AB;
-        width: 60%;
-        margin-left: -63%;
-        transition: all 0.5s;
-    }
-    .menu ul {
-        flex-direction: column;
-    }
-    .menu li {
-        border-top: 1px solid #fff;
-    }
-  #btn-menu:checked~.menu {
-        margin: 0;
-    }
-    #slider1{
-        width: 100%;
-        height: 230px;
-        margin-top: 6px;
-    }
-    aside{
-        width: 100%;
-        margin-top: -36px;
-}
-aside #informacion1 img{
-  height: 60px;
-    margin-top: 5px;
-}
-
-aside h3{
-    font-size: 9vw;
-    margin-top: -48px;
-}
-aside #informacion2 img{
-   height: 60px;
-    margin-top: -24px;
-}
-aside h4{
-      font-size: 9vw;
-margin-top: -55px;
-}
-aside #informacion3 img{
-    height: 60px;
-    margin-top: -30px;
-}
-aside h5{
-     font-size: 9vw;
-    margin-top: -55px;
-}
-#fotos1{
-    width: 100%;
-    margin-top: 100px;
-}
-#fotos1 #fotos img{
-   margin: 2px;
-    width: 99.4%;
-    height: 470px;
-    margin-top: 80px;
-}
-
-#slider{
-    height: 95px;
-}
-}
-
-@media(max-width: 319px) and (min-width: 280px){
-    body{
-        background: #1AC212;
-    }
-    #phone{
-
-    height: 70px;
-   
-}
-#what img {
-    margin-top: 11px;
+#fotos2 section {
+  
+     width: 35%;
     margin-left: 55px;
 }
 
-#telefono h3{
-    color: white;
-    margin-top: -40px;
-    }
-    #redes{
-        background: #1AC212;
-    width: 60%;
-        margin-top:6px;
-    }
-       #redes img{
-    margin-top: 10px;
-        width: 18%;
-        height: 28px;
-        border-radius: 5px;
-    }
-    #banner img{
-    margin-top: -10px;
-    height: 70px;
-       
-    }
-     #banner #titulo h1{
-        margin-top: -50px;
-    }
-    #banner1 #slider1{
-        width: 100%;
-        height: 200px;
-        margin-top: -60px;
+#fotos2 p {
+  font-size: 3.5vw;
+    text-align: center;
+    
+}
+#Refer {
+    background: green;
+    width: 100%;
+    height: 40px;
+    margin-top: -8px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: green;
+    width: 100%;
+    height: 40px;
+    margin-top: -4px;
+    font-weight: bold:;
+}
+#slider{
+    width: 100%;
+    height: 150px;
+  
+    background-size: 100% 100%;
+      margin-top:1900px;
+    
+
+    width: 100%;
+
+  background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
+
+
+    animation: slider 20s infinite linear;
+    
     }
 
-     header label {
+}
+@media(max-width: 600px){
+  body{
+  background: #E7A424;
+}
+
+#redes{
+  background: #E7A424;
+}
+#slider1 img{
+  margin-top: 73px;
+  height: 311px;
+}
+
+#fotos2 p {
+  font-size: 4vw;
+    text-align: center;
+    
+}
+#Refer {
+    background: green;
+    width: 100%;
+    height: 40px;
+    margin-top: -8px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: green;
+    width: 100%;
+    height: 40px;
+    margin-top: -4px;
+    font-weight: bold:;
+}
+#slider{
+height: 100px;
+      margin-top: 1750px;
+
+    width: 100%;
+
+  background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
+    background-size: 100% 100%;
+
+    animation: slider 20s infinite linear;
+    
+    }
+
+}
+@media(max-width: 600px){
+  body{
+  background: red;
+}
+#phone{
+ width: 100%;
+    height: 100px;
+      
+}
+
+   #contenedor #phone img{
+  width: 15%;
+  margin-top: 10px;
+  margin-left: 80px;
+
+}
+#phone h3{
+  font-size: 9vw;
+  margin-top: -80px;
+  margin-left: 190px;
+
+}
+#redes{
+  background: #1E92E4;
+   width: 40%;
+    height: 40px;
+     margin-top: 1px;
+  
+    
+}
+#image img{
+
+   width: 20%;
+    height: 32px;
+    margin-top: 4px;
+    
+}
+  #banner img{
+    width: 100%;
+    height:75px;
+        margin-top: -18px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -60px;
+        text-align: center;
+    }
+ header label {
         display: block;
         margin: -9px;
-        margin-bottom: 28px;
+        margin-bottom: 20px;
     }
     header label img {
-        
-        margin-top: -5px;
+        width: 130%;
+        margin-top: 1px;
     }
     .menu {
         position: absolute;
-        background: #4E94AB;
-        width: 60%;
+      
+        width: 70%;
         margin-left: -63%;
         transition: all 0.5s;
+
+
     }
     .menu ul {
         flex-direction: column;
+        margin-top: -25px
     }
     .menu li {
         border-top: 1px solid #fff;
@@ -817,53 +2168,1421 @@ aside h5{
   #btn-menu:checked~.menu {
         margin: 0;
     }
-       #slider1{
-        width: 100%;
-        height: 270px;
-        margin-top: 25px;
-    }
-        aside{
-        width: 100%;
-        margin-top: 4px;
+ 
+
+ #slider1 img{
+    
+    height: 220px;
+     margin-top: 34px;
+    
 }
-aside #informacion1 img{
-  height: 60px;
-    margin-top:-1px;
+  #slider1{
+    width: 100%;
+
+}
+aside{
+  width: 100%;
+  margin-top: 8px;
+   box-shadow: #517D8D 4px 4px 4px;
 }
 
 aside h3{
-    font-size: 9vw;
-    margin-top: -55px;
+    margin-top: -45px;
+
+font-size: 6vw;
+
 }
-aside #informacion2 img{
-   height: 60px;
-    margin-top: -7px;
-}
-aside h4{
-      font-size: 9vw;
-    margin-top: -56px;
+aside #informacion1 img{
+    
+    height: 50px;
+    margin-top: -26px;
+
+    
 }
 
+
+aside #informacion2 img{
+ 
+    height: 50px;
+    margin-top: -35px;
+}
+aside h4{
+    margin-top: -55px;
+
+font-size: 6vw;
+
+}
 aside #informacion3 img{
-    height: 60px;
-    margin-top: -14px;
+    
+    height: 50px;
+    margin-top: -75px;
 }
 aside h5{
-     font-size: 9vw;
-    margin-top: -55px;
+    margin-top: -54px;
+text-align: center;
+font-size: 6vw;
+text-shadow: 3px 3px 3px gray;
 }
+#galery {
+  
+    font-size: 5vw;
+    margin-top: -150px;
 }
- #fotos{
+#fotos section {
+    
+    margin: 30px;
     width: 100%;
-    margin-top: -200px;
+    margin-left: -1px;
+margin-top: 50px;
 }
-#fotos img{
-   margin: 2px;
-    width: 99.4%;
-    height: 400px;
-    margin-top: 60px;
+#fotos2 section {
+     width: 100%;
+    margin-left: -1px;
 }
- #slider{
-    height: 85px;
-}      
+ p {
+    font-size: 6vw;
+    margin-top:5px;
+   font-weight: bold:;
+}
+#fotos2 p {
+    text-align: center;
+    
+}
+#Refer {
+    background: green;
+    width: 100%;
+    height: 50px;
+    margin-top: -8px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: green;
+    width: 100%;
+    height: 50px;
+    margin-top: -3px;
+    font-weight: bold:;
+}
+#slider{
+height: 100px;
+      margin-top: 7740px;
+
+    width: 100%;
+
+  background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
+    background-size: 100% 100%;
+
+    animation: slider 20s infinite linear;
+    
+    }
+
+}
+@media(max-width: 480px){
+  body{
+  background: #1E92E4;
+}
+#phone{
+ width: 100%;
+    height: 100px;
+      
+}
+
+   #contenedor #phone img{
+  width: 15%;
+  margin-top: 10px;
+  margin-left: 60px;
+
+}
+#phone h3{
+  font-size: 9vw;
+  margin-top: -55px;
+  margin-left: 150px;
+
+}
+#redes{
+  background: #1E92E4;
+   width: 43%;
+    height: 38px;
+     margin-top: 1px;
+  
+    
+}
+#image img{
+
+   width: 20%;
+    height: 32px;
+    margin-top: 8px;
+    
+}
+  #banner img{
+    width: 100%;
+    height:75px;
+        margin-top: -18px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -60px;
+        text-align: center;
+    }
+ header label {
+        display: block;
+        margin: -9px;
+        margin-bottom: 20px;
+    }
+    header label img {
+        width: 130%;
+        margin-top: 1px;
+    }
+    .menu {
+        position: absolute;
+      
+        width: 70%;
+        margin-left: -63%;
+        transition: all 0.5s;
+
+
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-top: -25px
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+  #btn-menu:checked~.menu {
+        margin: 0;
+    }
+ 
+
+ #slider1 img{
+    
+    height: 220px;
+     margin-top: 48px;
+    
+}
+  #slider1{
+    width: 100%;
+
+}
+aside{
+  width: 100%;
+  margin-top: 8px;
+   box-shadow: #517D8D 4px 4px 4px;
+}
+
+aside h3{
+    margin-top: -45px;
+
+font-size: 6vw;
+
+}
+aside #informacion1 img{
+    
+    height: 50px;
+    margin-top: -26px;
+
+    
+}
+
+
+aside #informacion2 img{
+ 
+    height: 50px;
+    margin-top: -19px;
+}
+aside h4{
+    margin-top: -45px;
+
+font-size: 6vw;
+
+}
+aside #informacion3 img{
+    
+    height: 50px;
+    margin-top: -30px;
+}
+aside h5{
+    margin-top: -50px;
+text-align: center;
+font-size: 6vw;
+text-shadow: 3px 3px 3px gray;
+}
+#galery {
+  
+    font-size: 5vw;
+    margin-top: -150px;
+}
+#fotos section {
+    
+    margin: 30px;
+    width: 100%;
+    margin-left: -1px;
+margin-top: 50px;
+}
+#fotos2 section {
+     width: 100%;
+    margin-left: -1px;
+}
+ p {
+    font-size: 5vw;
+    margin-top:5px;
+   font-weight: bold:;
+}
+#fotos2 p {
+    text-align: center;
+    
+}
+#Refer {
+    background: green;
+    width: 100%;
+    height: 30px;
+    margin-top: -8px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: green;
+    width: 100%;
+    height: 30px;
+    margin-top: -4px;
+    font-weight: bold:;
+}
+#slider{
+height: 100px;
+      margin-top: 6120px;
+
+    width: 100%;
+
+  background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
+    background-size: 100% 100%;
+
+    animation: slider 20s infinite linear;
+    
+    }
+
+}
+
+
+@media(max-width: 414px){
+  body{
+  background: #23E41E;
+}
+#phone{
+ width: 100%;
+    height: 70px;
+      
+}
+
+   #contenedor #phone img{
+  width: 15%;
+  margin-top: 5px;
+  margin-left: 60px;
+
+}
+#phone h3{
+  font-size: 9vw;
+  margin-top: -55px;
+  margin-left: 130px;
+
+}
+#redes{
+  background: #23E41E;
+   width: 43%;
+    height: 38px;
+     margin-top: 1px;
+  
+    
+}
+#image img{
+
+   width: 20%;
+    height: 32px;
+    margin-top: 4px;
+    
+}
+  #banner img{
+    width: 100%;
+    height:75px;
+        margin-top: -18px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -60px;
+        text-align: center;
+    }
+ header label {
+        display: block;
+        margin: -9px;
+        margin-bottom: 20px;
+    }
+    header label img {
+        width: 130%;
+        margin-top: 1px;
+    }
+    .menu {
+        position: absolute;
+      
+        width: 70%;
+        margin-left: -63%;
+        transition: all 0.5s;
+
+
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-top: -25px
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+  #btn-menu:checked~.menu {
+        margin: 0;
+    }
+ 
+
+
+  #slider1{
+    width: 100%;
+
+}
+aside{
+  width: 100%;
+  margin-top: 8px;
+   box-shadow: #517D8D 4px 4px 4px;
+}
+
+aside h3{
+    margin-top: -33px;
+
+font-size: 6vw;
+
+}
+aside #informacion1 img{
+    
+    height: 40px;
+    margin-top: -100px;
+
+    
+}
+
+
+aside #informacion2 img{
+ 
+    height: 40px;
+    margin-top: -22px;
+}
+aside h4{
+    margin-top: -33px;
+
+font-size: 6vw;
+
+}
+
+aside h5{
+    margin-top: -38px;
+text-align: center;
+font-size: 6vw;
+text-shadow: 3px 3px 3px gray;
+}
+#galery {
+  
+    font-size: 5vw;
+    margin-top: -170px;
+}
+#fotos section {
+    
+    margin: 30px;
+    width: 100%;
+    margin-left: -1px;
+
+}
+#fotos2 section {
+     width: 100%;
+    margin-left: -1px;
+}
+ p {
+    font-size: 7vw;
+    margin-top:5px;
+   font-weight: bold:;
+}
+#fotos2 p {
+    text-align: center;
+    
+}
+#Refer {
+    background: green;
+    width: 100%;
+    height: 30px;
+    margin-top: -7px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: green;
+    width: 100%;
+    height: 30px;
+    margin-top: -4px;
+    font-weight: bold:;
+}
+#slider{
+height: 100px;
+      margin-top: 5360px;
+
+    width: 100%;
+
+  background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
+    background-size: 100% 100%;
+
+    animation: slider 20s infinite linear;
+    
+    }
+
+}
+
+
+@media(max-width: 411px){
+  body{
+  background: #864278;
+}
+#phone{
+ width: 100%;
+    height: 70px;
+      
+}
+
+   #contenedor #phone img{
+  width: 15%;
+  margin-top: 5px;
+  margin-left: 20px;
+
+}
+#phone h3{
+  font-size: 9vw;
+  margin-top: -55px;
+  margin-left: 130px;
+
+}
+#redes{
+  background: #864278;
+   width: 43%;
+    height: 32px;
+     margin-top: 1px;
+  
+    
+}
+#image img{
+
+   width: 20%;
+    height: 28px;
+    margin-top: 4px;
+    
+}
+   #banner img{
+    width: 100%;
+    height:70px;
+        margin-top: -26px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -60px;
+        text-align: center;
+    }
+ header label {
+        display: block;
+        margin: -9px;
+        margin-bottom: 20px;
+    }
+    header label img {
+        width: 100%;
+        margin-top: 1px;
+    }
+    .menu {
+        position: absolute;
+      
+        width: 70%;
+        margin-left: -63%;
+        transition: all 0.5s;
+
+
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-top: -25px
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+  #btn-menu:checked~.menu {
+        margin: 0;
+    }
+ 
+
+ #slider1 img{
+    
+    height: 160px;
+     margin-top: 60px;
+    
+}
+  #slider1{
+    width: 100%;
+
+}
+aside{
+  width: 100%;
+  margin-top: 8px;
+   box-shadow: #517D8D 4px 4px 4px;
+}
+
+aside h3{
+    margin-top: -33px;
+
+font-size: 6vw;
+
+}
+aside #informacion1 img{
+    
+    height: 40px;
+    margin-top: -100px;
+
+    
+}
+
+
+aside #informacion2 img{
+ 
+    height: 40px;
+    margin-top: -23px;
+}
+aside h4{
+    margin-top: -39px;
+
+font-size: 6vw;
+
+}
+aside #informacion3 img{
+    margin-top: -25px;
+    height: 40px;
+
+}
+aside h5{
+    margin-top: -40px;
+text-align: center;
+font-size: 6vw;
+text-shadow: 3px 3px 3px gray;
+}
+#galery {
+  
+    font-size: 5vw;
+    margin-top: -180px;
+}
+#fotos section {
+    
+    margin: 30px;
+    width: 100%;
+    margin-left: -1px;
+
+}
+#fotos2 section {
+     width: 100%;
+    margin-left: -1px;
+}
+ p {
+    font-size: 5.5vw;
+    margin-top:5px;
+   font-weight: bold:;
+}
+#fotos2 p {
+    text-align: center;
+    
+}
+#Refer {
+    background: green;
+    width: 100%;
+    height: 30px;
+    margin-top: -6px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: green;
+    width: 100%;
+    height: 30px;
+    margin-top: -3px;
+    font-weight: bold:;
+}
+#slider{
+height: 100px;
+      margin-top: 5320px;
+
+    width: 100%;
+
+  background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
+    background-size: 100% 100%;
+
+    animation: slider 20s infinite linear;
+    
+    }
+
+}
+
+@media(max-width: 375px){
+  body{
+  background: green;
+}
+#phone{
+ width: 100%;
+    height: 70px;
+      
+}
+
+   #contenedor #phone img{
+  width: 15%;
+  margin-top: 10px;
+  margin-left: 60px;
+
+}
+#phone h3{
+  font-size: 9vw;
+  margin-top: -45px;
+  margin-left: 120px;
+
+}
+#redes{
+  background: green;
+   width: 43%;
+    height: 32px;
+     margin-top: 1px;
+  
+    
+}
+#image img{
+
+   width: 20%;
+    height: 28px;
+    margin-top: 4px;
+    
+}
+  #banner img{
+    width: 100%;
+    height:70px;
+        margin-top: -27px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -50px;
+        text-align: center;
+    }
+ header label {
+        display: block;
+        margin: -9px;
+        margin-bottom: 20px;
+    }
+    header label img {
+        width: 100%;
+        margin-top: 1px;
+    }
+    .menu {
+        position: absolute;
+      
+        width: 70%;
+        margin-left: -63%;
+        transition: all 0.5s;
+
+
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-top: -25px
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+  #btn-menu:checked~.menu {
+        margin: 0;
+    }
+ 
+
+ #slider1 img{
+    
+    height: 160px;
+     margin-top: 58px;
+    
+}
+  #slider1{
+    width: 100%;
+
+}
+aside{
+  width: 100%;
+  margin-top: 8px;
+   box-shadow: #517D8D 4px 4px 4px;
+}
+
+aside h3{
+    margin-top: -33px;
+
+font-size: 6vw;
+
+}
+aside #informacion1 img{
+    
+    height: 40px;
+    margin-top: -100px;
+
+    
+}
+
+
+aside #informacion2 img{
+ 
+    height: 40px;
+    margin-top: -18px;
+}
+aside h4{
+    margin-top: -33px;
+
+font-size: 6vw;
+
+}
+aside #informacion3 img{
+    
+    height: 40px;
+    margin-top: -26px;
+}
+aside h5{
+    margin-top: -32px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+#galery {
+  
+    font-size: 5vw;
+    margin-top: -180px;
+}
+#fotos section {
+    
+    margin: 30px;
+    width: 100%;
+    margin-left: -1px;
+
+}
+#fotos2 section {
+     width: 100%;
+    margin-left: -1px;
+}
+ p {
+    font-size: 7vw;
+    margin-top:5px;
+   font-weight: bold:;
+}
+#fotos2 p {
+    text-align: center;
+    
+}
+#Refer {
+    background: green;
+    width: 100%;
+    height: 30px;
+    margin-top: -4px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: green;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    font-weight: bold:;
+}
+#slider{
+height: 100px;
+      margin-top: 4930px;
+    
+
+    width: 100%;
+
+  background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
+    background-size: 100% 100%;
+
+    animation: slider 20s infinite linear;
+    
+    }
+
+}
+
+@media(max-width: 360px){
+  body{
+  background: gray;
+}
+#phone{
+ width: 100%;
+    height: 70px;
+      
+}
+
+   #contenedor #phone img{
+  width: 15%;
+  margin-top: 10px;
+  margin-left: 60px;
+
+}
+#phone h3{
+  font-size: 9vw;
+  margin-top: -45px;
+  margin-left: 120px;
+
+}
+#redes{
+  background: gray;
+   width: 43%;
+    height: 32px;
+     margin-top: 1px;
+  
+    
+}
+#image img{
+
+   width: 20%;
+    height: 28px;
+    margin-top: 4px;
+    
+}
+  #banner img{
+    width: 100%;
+    height:70px;
+        margin-top: -27px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -50px;
+        text-align: center;
+    }
+ header label {
+        display: block;
+        margin: -9px;
+        margin-bottom: 20px;
+    }
+    header label img {
+        width: 100%;
+        margin-top: 1px;
+    }
+    .menu {
+        position: absolute;
+      
+        width: 70%;
+        margin-left: -63%;
+        transition: all 0.5s;
+
+
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-top: -25px
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+  #btn-menu:checked~.menu {
+        margin: 0;
+    }
+ 
+
+ #slider1 img{
+    
+    height: 160px;
+     margin-top: 58px;
+    
+}
+  #slider1{
+    width: 100%;
+
+}
+aside{
+  width: 100%;
+  margin-top: 8px;
+   box-shadow: #517D8D 4px 4px 4px;
+}
+
+aside h3{
+    margin-top: -33px;
+
+font-size: 6vw;
+
+}
+aside #informacion1 img{
+    
+    height: 40px;
+    margin-top: -100px;
+
+    
+}
+
+
+aside #informacion2 img{
+ 
+    height: 40px;
+    margin-top: -15px;
+}
+aside h4{
+    margin-top: -33px;
+
+font-size: 6vw;
+
+}
+aside #informacion3 img{
+    
+    height: 40px;
+    margin-top: -23px;
+}
+aside h5{
+    margin-top: -32px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+#galery {
+  
+    font-size: 5vw;
+    margin-top: -180px;
+}
+#fotos section {
+    
+    margin: 30px;
+    width: 100%;
+    margin-left: -1px;
+
+}
+#fotos2 section {
+     width: 100%;
+    margin-left: -1px;
+}
+ p {
+    font-size: 7vw;
+    margin-top:5px;
+   font-weight: bold:;
+}
+#fotos2 p {
+    text-align: center;
+    
+}
+#Refer {
+    background: #F1F10F;
+    width: 100%;
+    height: 30px;
+    margin-top: -6px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: #F1F10F;
+    width: 100%;
+    height: 30px;
+    margin-top: -4px;
+    font-weight: bold:;
+}
+#slider{
+height: 100px;
+      margin-top: 4780px;
+
+    width: 100%;
+
+  background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
+    background-size: 100% 100%;
+
+    animation: slider 20s infinite linear;
+    
+    }
+
+}
+@media(max-width: 320px){
+  body{
+  background: #06CE22;
+}
+#phone{
+ width: 100%;
+    height: 70px;
+      
+}
+
+   #contenedor #phone img{
+  width: 15%;
+  margin-top: 10px;
+  margin-left: 60px;
+
+}
+#phone h3{
+  font-size: 9vw;
+  margin-top: -45px;
+  margin-left: 120px;
+
+}
+#redes{
+  background: gray;
+   width: 43%;
+    height: 32px;
+     margin-top: 1px;
+  
+    
+}
+#image img{
+
+   width: 20%;
+    height: 28px;
+    margin-top: 4px;
+    
+}
+  #banner img{
+    width: 100%;
+    height:70px;
+        margin-top: -27px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -50px;
+        text-align: center;
+    }
+ header label {
+        display: block;
+        margin: -9px;
+        margin-bottom: 20px;
+    }
+    header label img {
+        width: 100%;
+        margin-top: 1px;
+    }
+    .menu {
+        position: absolute;
+      
+        width: 70%;
+        margin-left: -63%;
+        transition: all 0.5s;
+
+
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-top: -25px
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+  #btn-menu:checked~.menu {
+        margin: 0;
+    }
+ 
+
+ #slider1 img{
+    
+    height: 160px;
+     margin-top: 58px;
+    
+}
+  #slider1{
+    width: 100%;
+
+}
+aside{
+  width: 100%;
+  margin-top: 8px;
+   box-shadow: #517D8D 4px 4px 4px;
+}
+
+aside h3{
+    margin-top: -33px;
+
+font-size: 6vw;
+
+}
+aside #informacion1 img{
+    
+    height: 40px;
+    margin-top: -100px;
+
+    
+}
+
+
+aside #informacion2 img{
+ 
+    height: 40px;
+    margin-top:-25x;
+}
+aside h4{
+    margin-top: -33px;
+
+font-size: 6vw;
+
+}
+aside #informacion3 img{
+    
+    height: 40px;
+    margin-top: -53px;
+}
+aside h5{
+    margin-top: -32px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+#galery {
+  
+    font-size: 5vw;
+    margin-top: -180px;
+}
+#fotos section {
+    
+    margin: 30px;
+    width: 100%;
+    margin-left: -1px;
+
+}
+#fotos2 section {
+     width: 100%;
+    margin-left: -1px;
+}
+ p {
+    font-size: 7vw;
+    margin-top:5px;
+   font-weight: bold:;
+}
+#fotos2 p {
+    text-align: center;
+    
+}
+#Refer {
+    background: #F1F10F;
+    width: 100%;
+    height: 30px;
+    margin-top: -7px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: #F1F10F;
+    width: 100%;
+    height: 30px;
+    margin-top: -4px;
+    font-weight: bold:;
+}
+#slider{
+height: 100px;
+      margin-top: 4350px;
+
+    width: 100%;
+
+  background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
+    background-size: 100% 100%;
+
+    animation: slider 20s infinite linear;
+    
+    }
+
+}
+
+@media(max-width: 280px){
+  body{
+  background: yellow;
+}
+#phone{
+ width: 100%;
+    height: 60px;
+      
+}
+
+   #contenedor #phone img{
+  width: 15%;
+  margin-top: 10px;
+  margin-left: 40px;
+
+}
+#phone h3{
+  font-size: 9vw;
+  margin-top: -35px;
+  margin-left: 100px;
+
+}
+#redes{
+  background: yellow;
+   width: 43%;
+    height: 32px;
+     margin-top: 1px;
+  
+    
+}
+#image img{
+
+   width: 20%;
+    height: 28px;
+    margin-top: 4px;
+    
+}
+  #banner img{
+    width: 100%;
+    height:70px;
+        margin-top: -27px;
+    }
+   #banner #titulo h1{
+    font-size: 7vw;
+        margin-top: -50px;
+        text-align: center;
+    }
+ header label {
+        display: block;
+        margin: -9px;
+        margin-bottom: 20px;
+    }
+    header label img {
+        width: 100%;
+        margin-top: 1px;
+    }
+    .menu {
+        position: absolute;
+      
+        width: 70%;
+        margin-left: -63%;
+        transition: all 0.5s;
+
+
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-top: -25px
+    }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+  #btn-menu:checked~.menu {
+        margin: 0;
+    }
+ 
+
+ #slider1 img{
+    
+    height: 140px;
+     margin-top: 64px;
+    
+}
+  #slider1{
+    width: 100%;
+
+}
+aside{
+  width: 100%;
+  margin-top: 8px;
+   box-shadow: #517D8D 4px 4px 4px;
+}
+
+aside h3{
+    margin-top: -33px;
+
+font-size: 6vw;
+
+}
+aside #informacion1 img{
+    
+    height: 40px;
+    margin-top: -160px;
+
+    
+}
+
+
+aside #informacion2 img{
+ 
+    height: 40px;
+    
+}
+aside h4{
+    margin-top: -33px;
+
+font-size: 6vw;
+
+}
+aside #informacion3 img{
+    
+    height: 40px;
+
+}
+aside h5{
+    margin-top: -32px;
+text-align: center;
+font-size: 5vw;
+text-shadow: 3px 3px 3px gray;
+}
+#galery {
+  
+    font-size: 5vw;
+    margin-top: -180px;
+}
+#fotos section {
+    
+    margin: 30px;
+    width: 100%;
+    margin-left: -1px;
+
+}
+#fotos2 section {
+     width: 100%;
+    margin-left: -1px;
+}
+ p {
+    font-size: 7vw;
+    margin-top:5px;
+   font-weight: bold:;
+}
+#fotos2 p {
+    text-align: center;
+    
+}
+#Refer {
+    background: #F1F10F;
+    width: 100%;
+    height: 30px;
+    margin-top: -4px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold:;
+}
+
+
+#precio {
+  background: #F1F10F;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    font-weight: bold:;
+}
+#slider{
+height: 100px;
+      margin-top:3950px;
+
+    width: 100%;
+
+  background-image: url(https://i.postimg.cc/vBhx0dKJ/logos.png);
+    background-size: 100% 100%;
+
+    animation: slider 20s infinite linear;
+    
+    }
+
+    
+    @keyframes slider{
+    to{
+        background-position: 2000px;
+}
+
 }
