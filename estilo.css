@@ -3391,6 +3391,11 @@ height: 100px;
     animation: slider 20s infinite linear;
     
     }
+        
+    @keyframes slider{
+    to{
+        background-position: 2000px;
+}
 
 }
 
